@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Stations Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-draw/dist/leaflet.draw.css"/>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-draw/dist/leaflet.draw.js"></script>
+    <style>
+        #mapid { height: 60vh; }
+        #stations-list { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div id="mapid"></div>
+    <div id="stations-list"></div> <!-- Container to display selected stations -->
+    <script>
+        var map = L.map('mapid').setView([45.0, -93.5], 9);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 18,
+        }).addTo(map);
+
+        // Function to fetch stations and optionally filter by bounding box
+        function fetchStations(lat1, lon1, lat2, lon2) {
+            let url = '/stations';
+            if (lat1 && lon1 && lat2 && lon2) {
+                url += `?lat1=${lat1}&lon1=${lon1}&lat2=${lat2}&lon2=${lon2}`;
+            }
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+					console.log("Stations API response:", data);
+                    if (lat1 && lon1 && lat2 && lon2) {
+                        document.getElementById('stations-list').innerHTML = '<h4>Stations in Bounding Box:</h4>' + data.map(station => station.name).join('<br>');
+                    } else {
+                        data.forEach(station => {
+                    // Using L.circleMarker here
+                    L.circleMarker([station.latitude, station.longitude], {
+                        radius: 5, // Size of the circle marker
+                        fillColor: "Pink",
+                        color: "#fb00ff",
+                        weight: 1,
+                        opacity: 1,
+                        fillOpacity: 0.8
+						}).addTo(map)
+                      .bindPopup(station.name);
+                        });
+                    }
+                });
+        }
+
+        // Initial fetch to load all stations
+        fetchStations();
+
+        var drawnItems = new L.FeatureGroup();
+        map.addLayer(drawnItems);
+        var drawControl = new L.Control.Draw({
+            draw: {
+                polygon: false,
+                polyline: false,
+                circle: false,
+                circlemarker: false,
+                marker: false,
+                rectangle: true
+            },
+            edit: {
+                featureGroup: drawnItems,
+                remove: true
+            }
+        });
+        map.addControl(drawControl);
+
+        map.on(L.Draw.Event.CREATED, function (e) {
+            var type = e.layerType,
+                layer = e.layer;
+
+            if (type === 'rectangle') {
+                console.log(layer.getBounds());
+                var bounds = layer.getBounds();
+                var southWest = bounds.getSouthWest(),
+                    northEast = bounds.getNorthEast();
+
+                fetchStations(southWest.lat, southWest.lng, northEast.lat, northEast.lng);
+                drawnItems.clearLayers(); // Optionally clear previous layers
+                drawnItems.addLayer(layer); // Add current bounding box
+            }
+        });
+    </script>
+</body>
+</html>
