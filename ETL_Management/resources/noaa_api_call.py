@@ -1,9 +1,11 @@
 from flask_restful import Resource, reqparse
 from noaa_etl_manager import NOAAETLManager
+from nclim_gridded_etl_manager import GRIDETLManager
+from ameriflux_etl_manager import AMFETLManager
 
 parser = reqparse.RequestParser()
 parser.add_argument('Endpoint', required=True, help="Endpoint cannot be blank!")
-parser.add_argument('Call_Direct_Download', required=True, choices=('FALSE', 'CSV', 'JSON'), help='Direct Download format must be either FALSE, CSV, or JSON')
+parser.add_argument('Call_Direct_Download', required=True, choices=('FALSE', 'CSV', 'JSON'), help='Direct Download format must be either FALSE, CSV, JSON')
 parser.add_argument('Call_DB', type=bool, default=True)
 parser.add_argument('Call_API', type=bool, default=True)
 parser.add_argument('Call_Completeness', type=bool, default=True)
@@ -17,7 +19,13 @@ parser.add_argument('Additional_Arguments', type=dict, required=False)
 class NOAAAPICall(Resource):
     def post(self):
         args = parser.parse_args()
-        etl_manager = NOAAETLManager(args)
+        endpoint = args['Endpoint']
+        if (endpoint == 'NOAA_GRID_DATA'):
+            etl_manager = GRIDETLManager(args)
+        elif (endpoint == 'AMF_DATA'):
+            etl_manager = AMFETLManager(args)
+        else:
+            etl_manager = NOAAETLManager(args)
         return etl_manager.process_request()
 
 """

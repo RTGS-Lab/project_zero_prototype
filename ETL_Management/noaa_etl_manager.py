@@ -1,6 +1,6 @@
 """
 NOAA ETL Management Program
-V1.1 (20 April 2024)
+V1.2 (12 May 2024)
 Logan Gall, gall0487@umn.edu
 
 This file serves as a functional Extract, Transform, Load (ETL) tool for a custom-built NOAA API Database.

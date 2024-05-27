@@ -1,5 +1,11 @@
 Flask
+psycopg2
+flask_restful
 requests
-json
-csv
-collections
+datetime
+pandas
+geopandas
+rasterio
+shapely
+xarray
+rpy2
