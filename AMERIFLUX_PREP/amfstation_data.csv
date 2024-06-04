@@ -1,0 +1,662 @@
+SITE_ID,SITE_NAME,COUNTRY,STATE,IGBP,TOWER_BEGAN,TOWER_END,URL_AMERIFLUX,LOCATION_LAT,LOCATION_LONG,LOCATION_ELEV,CLIMATE_KOEPPEN,MAT,MAP,DATA_POLICY,DATA_START,DATA_END
+AR-Bal,Balcarce BA,Argentina,Buenos Aires,CRO,2012,2013,https://ameriflux.lbl.gov/sites/siteinfo/AR-Bal,-37.7596,-58.3024,130.0,Cfb,14.0,926.0,LEGACY,2012,2013
+AR-CCa,Carlos Casares agriculture,Argentina,Buenos Aires,CRO,2012,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/AR-CCa,-35.621,-61.3181,83.0,Cfa,16.1,1060.0,CCBY4.0,2012,2020
+AR-CCg,Carlos Casares grassland,Argentina,Buenos Aires,GRA,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/AR-CCg,-35.9244,-61.1855,84.0,Cfa,16.1,1060.0,CCBY4.0,2018,2020
+AR-Cel,CELPA Mar Chiquita BA,Argentina,Buenos Aires,WET,2018,2018,https://ameriflux.lbl.gov/sites/siteinfo/AR-Cel,-37.7028,-57.4192,1.0,Cfb,14.0,926.0,LEGACY,2018,2018
+AR-Rom,Romano Mar Chiquita BA,Argentina,Buenos Aires,WET,2014,2015,https://ameriflux.lbl.gov/sites/siteinfo/AR-Rom,-37.5508,-57.2972,1.0,Cfb,14.0,926.0,LEGACY,2014,2015
+AR-TF1,Rio Moat bog,Argentina,NA_character_,WET,2016,2018,https://ameriflux.lbl.gov/sites/siteinfo/AR-TF1,-54.9733,-66.7335,40.0,NA_character_,,,CCBY4.0,2016,2018
+AR-TF2,Rio Pipo bog,Argentina,NA_character_,WET,2016,2018,https://ameriflux.lbl.gov/sites/siteinfo/AR-TF2,-54.8269,-68.4549,60.0,NA_character_,5.5,530.0,CCBY4.0,2016,2018
+BR-Cax,"CAX, FLONA Caxiuanã micromet tower",Brazil,Pará,EBF,2005,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/BR-Cax,-1.7185,-51.4583,48.4,Af,26.0,2500.0,CCBY4.0,-2147483648,-2147483648
+BR-CMT,Capuaba farm Mato Grosso,Brazil,Mato Grosso,CRO,2015,2019,https://ameriflux.lbl.gov/sites/siteinfo/BR-CMT,-13.2875,-56.0882,427.0,Aw,26.8,1566.0,LEGACY,-2147483648,-2147483648
+BR-CST,Caatinga Serra Talhada,Brazil,Pernambuco,DNF,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/BR-CST,-7.9682,-38.3842,468.0,Bsh,25.2,642.0,CCBY4.0,2014,2015
+BR-Cui,Micrometeorological studies project in Amazonian mangroves,Brazil,NA_character_,WET,2015,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/BR-Cui,-0.6661,-47.2833,21.0,Am,26.4,457.2,LEGACY,-2147483648,-2147483648
+BR-CUP,Cupari Tapajos National Forest,Brazil,Pará,DBF,2024,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/BR-CUP,-3.7874,-55.3664,15.0,Af,25.0,1900.0,LEGACY,-2147483648,-2147483648
+BR-IAB,Instituto Arruda Botelho - Wooded Cerrado and Mixed Agriculture,Brazil,São Paulo,WSA,2018,2021,https://ameriflux.lbl.gov/sites/siteinfo/BR-IAB,-22.171,-47.871,763.0,Cwa,21.6,1486.0,LEGACY,-2147483648,-2147483648
+BR-Ji1,Fazenda Nossa Senhora (FNS),Brazil,Rondônia,GRA,1999,2010,https://ameriflux.lbl.gov/sites/siteinfo/BR-Ji1,-10.7618,-62.3572,260.0,Af,,,CCBY4.0,-2147483648,-2147483648
+BR-Ji3,Ji-Paraná/RO - Reserva Biológica do Jaru (RBJ),Brazil,Rondônia,EBF,1999,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/BR-Ji3,-10.1866,-61.8725,160.0,Am,21.0,,CCBY4.0,-2147483648,-2147483648
+BR-Ma2,Manaus - ZF2 K34,Brazil,Amazonas,EBF,1999,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/BR-Ma2,-2.6091,-60.2093,130.0,Af,26.68,2252.0,CCBY4.0,-2147483648,-2147483648
+BR-Ma3,"ZF3, Colosso farm",Brazil,Amazonas (Brazil),CVM,2008,2018,https://ameriflux.lbl.gov/sites/siteinfo/BR-Ma3,-2.3907,-59.8835,147.0,Af,29.0,2792.0,CCBY4.0,-2147483648,-2147483648
+BR-Moj,"Moju/PA, Commercial oil palm plantation",Brazil,Pará,CVM,2015,2022,https://ameriflux.lbl.gov/sites/siteinfo/BR-Moj,-1.9787,-48.6147,26.0,Af,25.5,2500.0,CCBY4.0,-2147483648,-2147483648
+BR-Npw,Northern Pantanal Wetland,Brazil,Mato Grosso,WSA,2013,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/BR-Npw,-16.498,-56.412,120.0,Aw,24.9,1486.0,CCBY4.0,2013,2017
+BR-PRS,Paraíso do Sul,Brazil,Rio Grande do Sul,CRO,2003,2004,https://ameriflux.lbl.gov/sites/siteinfo/BR-PRS,-29.744,-53.1503,,Cfa,21.0,1500.0,LEGACY,-2147483648,-2147483648
+BR-Sa1,Santarem-Km67-Primary Forest,Brazil,NA_character_,EBF,2002,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/BR-Sa1,-2.8567,-54.9589,88.0,Am,26.13,2074.79,CCBY4.0,2002,2011
+BR-Sa3,Santarem-Km83-Logged Forest,Brazil,NA_character_,EBF,2000,2003,https://ameriflux.lbl.gov/sites/siteinfo/BR-Sa3,-3.018,-54.9714,100.0,Am,26.12,2043.77,CCBY4.0,2000,2004
+BR-SGC,"São Gabriel da Cachoeira (Balaio Indigenous Reserve, Pico da Neblina National Park)",Brazil,Amazonas (Brazil),EBF,2004,2010,https://ameriflux.lbl.gov/sites/siteinfo/BR-SGC,0.2101,-66.7529,100.0,Af,27.0,3000.0,CCBY4.0,-2147483648,-2147483648
+BR-SP1,Southern Pantanal Wetland,Brazil,Mato Grosso do Sul,WSA,2023,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/BR-SP1,-19.565,-57.018,90.0,Aw,25.0,850.0,LEGACY,-2147483648,-2147483648
+CA-AF1,Acadia Research Forest,Canada,Nova Scotia,MF,2023,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-AF1,46.0092,-66.3627,78.0,Dfb,5.6,1078.0,CCBY4.0,-2147483648,-2147483648
+CA-ARB,Attawapiskat River Bog,Canada,Ontario,WET,2010,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-ARB,52.695,-83.9452,90.0,Dfb,-1.3,700.0,CCBY4.0,2011,2015
+CA-ARF,Attawapiskat River Fen,Canada,Ontario,WET,2010,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-ARF,52.7008,-83.955,88.0,Dfb,-1.3,700.0,CCBY4.0,2011,2015
+CA-BOU,Bouleau Peatland,Canada,Quebec,WET,2018,2020,https://ameriflux.lbl.gov/sites/siteinfo/CA-BOU,50.5244,-63.2064,108.0,Cwc,1.5,1011.0,CCBY4.0,2018,2020
+CA-Ca1,British Columbia - 1949 Douglas-fir stand,Canada,NA_character_,ENF,1997,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-Ca1,49.8673,-125.3336,300.0,Cfb,9.93,1369.0,CCBY4.0,1996,2010
+CA-Ca2,British Columbia - Clearcut Douglas-fir stand (harvested winter 1999/2000),Canada,NA_character_,ENF,2000,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-Ca2,49.8705,-125.2909,300.0,Cfb,9.86,1474.0,CCBY4.0,1999,2010
+CA-Ca3,British Columbia - Pole sapling Douglas-fir stand,Canada,NA_character_,ENF,2001,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-Ca3,49.5346,-124.9004,,Cfb,9.94,1676.0,CCBY4.0,2001,2022
+CA-Cbo,"Ontario - Mixed Deciduous, Borden Forest Site",Canada,NA_character_,DBF,1995,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-Cbo,44.3167,-79.9333,120.0,Dfb,6.66,876.34,CCBY4.0,1994,2020
+CA-CF1,Churchill Fen Site 1,Canada,Manitoba,WET,2007,2008,https://ameriflux.lbl.gov/sites/siteinfo/CA-CF1,58.6658,-93.83,16.5,Dfc,-6.5,452.0,CCBY4.0,2007,2008
+CA-CF2,Churchill Fen Site 2,Canada,Manitoba,WET,2008,2011,https://ameriflux.lbl.gov/sites/siteinfo/CA-CF2,58.6658,-93.83,16.5,Dfc,-6.5,452.0,CCBY4.0,2008,2011
+CA-CF3,Churchill Fen Site 3,Canada,Manitoba,WET,2022,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-CF3,58.6658,-93.8304,25.0,Dfc,,,CCBY4.0,2022,2023
+CA-Cha,New Brunswick - Charlie Lake site 01 (immature balsam fir forest to be thinned in year 3),Canada,NA_character_,MF,2004,2005,https://ameriflux.lbl.gov/sites/siteinfo/CA-Cha,45.8847,-67.3569,341.0,Dfb,3.46,971.68,CCBY4.0,2004,2005
+CA-DB2,Delta Burns Bog 2,Canada,British Columbia,WET,2019,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-DB2,49.119,-122.9951,4.0,NA_character_,,,CCBY4.0,2019,2020
+CA-DBB,Delta Burns Bog,Canada,British Columbia,WET,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-DBB,49.1293,-122.9849,4.0,Csb,10.0,1128.0,CCBY4.0,2014,2020
+CA-DL1,Daring Lake - Mixed Tundra,Canada,NA_character_,OSH,2004,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-DL1,64.8689,-111.5748,425.0,Dfc,-9.0,250.0,CCBY4.0,-2147483648,-2147483648
+CA-DL2,Daring Lake - Fen,Canada,NA_character_,WET,2006,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-DL2,64.8648,-111.5677,416.0,Dfc,-9.0,250.0,CCBY4.0,-2147483648,-2147483648
+CA-DSM,Delta Salt Marsh,Canada,British Columbia,WET,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-DSM,49.0887,-122.8954,,Csb,10.6,1077.8,CCBY4.0,2022,2022
+CA-EM1,Newdale Manitoba,Canada,Manitoba,WET,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-EM1,50.3623,-100.2024,607.9,Dfb,1.3,504.8,CCBY4.0,2021,2023
+CA-EM2,Shoal Lake Manitoba,Canada,Manitoba,WET,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-EM2,50.3706,-100.5339,554.3,Dfb,1.5,473.4,CCBY4.0,2021,2023
+CA-EM3,Oak Hammock Marsh Manitoba,Canada,Manitoba,WET,2023,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-EM3,50.1738,-97.1231,255.0,Dfb,3.0,521.1,CCBY4.0,-2147483648,-2147483648
+CA-ER1,Elora Research Station,Canada,Ontario,CRO,2015,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-ER1,43.6405,-80.4123,370.0,Dfb,6.7,946.0,CCBY4.0,2015,2021
+CA-ER2,Elora Research Station,Canada,Ontario,CRO,2015,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-ER2,43.6419,-80.414,370.0,Dfb,6.7,946.0,CCBY4.0,-2147483648,-2147483648
+CA-Gro,"Ontario - Groundhog River, Boreal Mixedwood Forest",Canada,Ontario,MF,2003,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-Gro,48.2167,-82.1556,340.0,Dfb,1.3,831.0,CCBY4.0,2003,2014
+CA-HPC,Havikpak Creek,Canada,Northwest Territories,ENF,2013,2017,https://ameriflux.lbl.gov/sites/siteinfo/CA-HPC,68.3203,-133.5188,80.0,Dfc,-8.2,240.6,CCBY4.0,2018,2018
+CA-KLP,Kinoje Lake Peatland,Canada,Ontario,WET,2009,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-KLP,51.5902,-81.7684,71.0,Dfb,-1.1,680.0,CCBY4.0,-2147483648,-2147483648
+CA-Let,Alberta - Mixed Grass Prairie,Canada,NA_character_,GRA,1998,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-Let,49.7093,-112.9402,960.0,Dfb,5.36,398.4,LEGACY,1998,2008
+CA-LP1,British Columbia - Mountain pine beetle-attacked lodgepole pine stand ,Canada,British Columbia,ENF,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-LP1,55.1119,-122.8414,751.0,Csa,2.0,570.0,CCBY4.0,2007,2022
+CA-LuM,Luther Marsh Wildlife Management Area,Canada,Ontario,WET,2014,2014,https://ameriflux.lbl.gov/sites/siteinfo/CA-LuM,43.9201,-80.4052,485.0,Dfb,6.6,905.0,LEGACY,-2147483648,-2147483648
+CA-MA1,Manitoba Agricultural Site 1,Canada,Manitoba,CRO,2009,2011,https://ameriflux.lbl.gov/sites/siteinfo/CA-MA1,50.1645,-97.8762,261.0,Dfb,2.6,514.0,CCBY4.0,2009,2011
+CA-MA2,Manitoba Agricultural Site 2,Canada,Manitoba,CRO,2009,2011,https://ameriflux.lbl.gov/sites/siteinfo/CA-MA2,50.171,-97.8762,261.0,Dfb,2.6,514.0,CCBY4.0,2009,2011
+CA-MA3,Manitoba Agricultural Site 3,Canada,Manitoba,GRA,2009,2011,https://ameriflux.lbl.gov/sites/siteinfo/CA-MA3,50.1774,-97.8686,261.0,Dfb,2.6,514.0,CCBY4.0,2009,2011
+CA-Man,Manitoba - Northern Old Black Spruce (former BOREAS Northern Study Area),Canada,NA_character_,ENF,1994,2008,https://ameriflux.lbl.gov/sites/siteinfo/CA-Man,55.8796,-98.4808,259.0,Dfc,-3.2,520.0,CCBY4.0,1994,2008
+CA-Mer,"Ontario - Eastern Peatland, Mer Bleue",Canada,NA_character_,WET,1998,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-Mer,45.4094,-75.5186,70.0,Dfb,6.0,943.0,CCBY4.0,-2147483648,-2147483648
+CA-MR3,Mattheis Ranch - E3 South,Canada,Alberta,GRA,2012,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-MR3,50.8671,-111.9045,712.0,Dwd,,325.0,LEGACY,2012,2016
+CA-MR5,Mattheis Ranch - E5 North,Canada,Alberta,GRA,2012,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-MR5,50.9056,-111.8823,700.0,Dwd,,325.0,LEGACY,2012,2016
+CA-Na1,New Brunswick - 1967 Balsam Fir - Nashwaak Lake Site 01 (Mature balsam fir forest),Canada,NA_character_,ENF,2003,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-Na1,46.4722,-67.1,341.0,Dfb,7.09,1102.7,CCBY4.0,2003,2005
+CA-NS1,UCI-1850 burn site,Canada,NA_character_,ENF,2002,2005,https://ameriflux.lbl.gov/sites/siteinfo/CA-NS1,55.8792,-98.4839,260.0,Dfc,-2.89,500.29,CCBY4.0,2001,2005
+CA-NS2,UCI-1930 burn site,Canada,NA_character_,ENF,2001,2005,https://ameriflux.lbl.gov/sites/siteinfo/CA-NS2,55.9058,-98.5247,260.0,Dfc,-2.88,499.82,CCBY4.0,2001,2005
+CA-NS3,UCI-1964 burn site,Canada,NA_character_,ENF,2001,2005,https://ameriflux.lbl.gov/sites/siteinfo/CA-NS3,55.9117,-98.3822,260.0,Dfc,-2.87,502.22,CCBY4.0,2001,2005
+CA-NS4,UCI-1964 burn site wet,Canada,NA_character_,ENF,2002,2004,https://ameriflux.lbl.gov/sites/siteinfo/CA-NS4,55.9144,-98.3806,260.0,Dfc,-2.87,502.22,CCBY4.0,2001,2005
+CA-NS5,UCI-1981 burn site,Canada,NA_character_,ENF,2001,2005,https://ameriflux.lbl.gov/sites/siteinfo/CA-NS5,55.8631,-98.485,260.0,Dfc,-2.86,500.34,CCBY4.0,2001,2005
+CA-NS6,UCI-1989 burn site,Canada,NA_character_,OSH,2001,2005,https://ameriflux.lbl.gov/sites/siteinfo/CA-NS6,55.9167,-98.9644,244.0,Dfc,-3.08,495.37,CCBY4.0,2001,2005
+CA-NS7,UCI-1998 burn site,Canada,NA_character_,OSH,2002,2005,https://ameriflux.lbl.gov/sites/siteinfo/CA-NS7,56.6358,-99.9483,297.0,Dfc,-3.52,483.27,CCBY4.0,2001,2005
+CA-NS8,UCI-2003 burn site,Canada,NA_character_,ENF,2001,2005,https://ameriflux.lbl.gov/sites/siteinfo/CA-NS8,55.8981,-98.2161,274.0,Dfc,-2.71,506.69,LEGACY,2001,2005
+CA-Oas,"Saskatchewan - Western Boreal, Mature Aspen",Canada,NA_character_,DBF,1997,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-Oas,53.6289,-106.1978,530.0,Dfc,0.34,428.53,CCBY4.0,1996,2010
+CA-Obs,"Saskatchewan - Western Boreal, Mature Black Spruce",Canada,NA_character_,ENF,1999,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-Obs,53.9872,-105.1178,628.94,Dfc,0.79,405.6,CCBY4.0,1997,2010
+CA-Ojp,"Saskatchewan - Western Boreal, Mature Jack Pine",Canada,NA_character_,ENF,1999,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-Ojp,53.9163,-104.692,579.0,Dfc,0.12,430.5,LEGACY,1996,2010
+CA-Qc2,Quebec - 1975 Harvested Black Spruce (HBS75),Canada,Quebec,MF,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-Qc2,49.7598,-74.5711,,NA_character_,,,CCBY4.0,2007,2010
+CA-Qcu,"Quebec - Eastern Boreal, Black Spruce/Jack Pine Cutover",Canada,Quebec,ENF,2001,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-Qcu,49.2671,-74.0365,392.3,Dfc,0.13,949.78,LEGACY,2001,2010
+CA-Qfo,"Quebec - Eastern Boreal, Mature Black Spruce",Canada,NA_character_,ENF,2003,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-Qfo,49.6925,-74.3421,382.0,Dfc,-0.36,962.32,CCBY4.0,2003,2010
+CA-RBM,Richmond Brackish Marsh,Canada,British Columbia,WET,2022,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-RBM,49.1313,-123.1964,,Csb,10.4,1152.0,CCBY4.0,-2147483648,-2147483648
+CA-RPn,Robinsons_Natural_Bog_NL,Canada,Newfoundland and Labrador,OSH,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-RPn,48.2604,-58.6632,150.0,Dfb,5.0,1340.4,LEGACY,-2147483648,-2147483648
+CA-RPp,Robinsons_Peatland_Pasture_NL,Canada,Newfoundland and Labrador,OSH,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-RPp,48.2632,-58.667,162.0,Dfb,5.0,1340.4,LEGACY,-2147483648,-2147483648
+CA-SCB,Scotty Creek Bog,Canada,Northwest Territories,WET,2014,2017,https://ameriflux.lbl.gov/sites/siteinfo/CA-SCB,61.3089,-121.2984,280.0,Dfc,-2.8,388.0,CCBY4.0,2014,2019
+CA-SCC,Scotty Creek Landscape,Canada,NA_character_,ENF,2013,2016,https://ameriflux.lbl.gov/sites/siteinfo/CA-SCC,61.3079,-121.2992,285.0,Dfc,-2.8,387.6,CCBY4.0,2013,2016
+CA-SF1,"Saskatchewan - Western Boreal, forest burned in 1977",Canada,NA_character_,ENF,2004,2006,https://ameriflux.lbl.gov/sites/siteinfo/CA-SF1,54.485,-105.8176,536.0,Dfc,0.4,470.0,CCBY4.0,2003,2006
+CA-SF2,"Saskatchewan - Western Boreal, forest burned in 1989",Canada,Saskatchewan,ENF,2001,2005,https://ameriflux.lbl.gov/sites/siteinfo/CA-SF2,54.2539,-105.8775,520.0,Dfc,0.4,470.0,CCBY4.0,2001,2006
+CA-SF3,"Saskatchewan - Western Boreal, forest burned in 1998",Canada,Saskatchewan,OSH,2001,2006,https://ameriflux.lbl.gov/sites/siteinfo/CA-SF3,54.0916,-106.0053,540.0,Dfc,0.4,470.0,CCBY4.0,2001,2006
+CA-SJ1,"Saskatchewan - Western Boreal, Jack Pine forest harvested in 1994",Canada,NA_character_,ENF,2001,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-SJ1,53.908,-104.656,580.0,Dfc,0.13,430.23,CCBY4.0,2000,2010
+CA-SJ2,"Saskatchewan - Western Boreal, Jack Pine forest harvested in 2002",Canada,NA_character_,ENF,2003,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-SJ2,53.945,-104.649,580.0,Dfc,0.11,430.03,CCBY4.0,2002,2010
+CA-SJ3,"Saskatchewan - Western Boreal, Jack Pine forest harvested in 1975 (BOREAS Young Jack Pine)",Canada,NA_character_,ENF,2004,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-SJ3,53.8758,-104.6453,,Dfc,0.13,433.33,LEGACY,2002,2010
+CA-SMC,Smith Creek,Canada,Northwest Territories,ENF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-SMC,63.1534,-123.2522,150.0,Dfc,-2.8,388.0,CCBY4.0,2018,2018
+CA-TP1,Ontario - Turkey Point 2002 Plantation White Pine,Canada,Ontario,ENF,2003,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-TP1,42.6609,-80.5595,265.0,Dfb,8.0,1036.0,CCBY4.0,2002,2017
+CA-TP2,Ontario - Turkey Point 1989 Plantation White Pine,Canada,Ontario,ENF,2003,2008,https://ameriflux.lbl.gov/sites/siteinfo/CA-TP2,42.7744,-80.4588,212.0,Dfb,8.0,1036.0,CCBY4.0,2002,2008
+CA-TP3,Ontario - Turkey Point 1974 Plantation White Pine,Canada,Ontario,ENF,2003,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-TP3,42.7068,-80.3483,184.0,Dfb,8.0,1036.0,CCBY4.0,2002,2017
+CA-TP4,Ontario - Turkey Point 1939 Plantation White Pine,Canada,Ontario,ENF,2003,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-TP4,42.7102,-80.3574,184.0,Dfb,8.0,1036.0,CCBY4.0,2002,2017
+CA-TPD,Ontario - Turkey Point Mature Deciduous,Canada,Ontario,DBF,2012,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-TPD,42.6353,-80.5577,260.0,Dfb,8.0,1036.0,CCBY4.0,2012,2017
+CA-TVC,Trail Valley Creek,Canada,Northwest Territories,OSH,2013,2017,https://ameriflux.lbl.gov/sites/siteinfo/CA-TVC,68.7462,-133.5017,85.0,Dfc,-8.2,240.6,CCBY4.0,2017,2017
+CA-WP1,"Alberta - Western Peatland - LaBiche River,Black Spruce/Larch Fen",Canada,NA_character_,WET,2003,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CA-WP1,54.9538,-112.467,540.0,Dfc,1.1,461.07,LEGACY,2003,2009
+CA-WP2,Alberta - Western Peatland - Poor Fen (Sphagnum moss),Canada,NA_character_,WET,2004,2004,https://ameriflux.lbl.gov/sites/siteinfo/CA-WP2,55.5375,-112.3343,,Dfc,,,LEGACY,2004,2006
+CA-WP3,Alberta - Western Peatland - Rich Fen  (Carex),Canada,NA_character_,WET,2004,2004,https://ameriflux.lbl.gov/sites/siteinfo/CA-WP3,54.47,-113.32,,Dfc,,,LEGACY,2004,2006
+CL-ACF,Alerce Costero Forest,Chile,NA_character_,ENF,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CL-ACF,-40.1726,-73.4439,822.0,Cfb,7.3,4500.0,CCBY4.0,-2147483648,-2147483648
+CL-SDF,Senda Darwin Forest,Chile,NA_character_,EBF,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CL-SDF,-41.883,-73.676,50.0,Cfb,10.0,2110.0,CCBY4.0,2014,2022
+CL-SDP,Senda Darwin Peatland,Chile,NA_character_,WET,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CL-SDP,-41.879,-73.666,50.0,Cfb,10.0,2110.0,CCBY4.0,2014,2022
+CO-GV1,Guatavita Station 1,Colombia,Cundinamarca,WET,2023,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CO-GV1,4.9139,-73.7365,3001.0,NA_character_,,,LEGACY,-2147483648,-2147483648
+CO-GV2,Guatavita Station 2,Colombia,Cundinamarca,WET,2023,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CO-GV2,4.9168,-73.7429,3002.0,NA_character_,,,LEGACY,-2147483648,-2147483648
+CR-Dos,La Selva T2,Costa Rica,Heredia,EBF,2022,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CR-Dos,10.4322,-84.0106,40.0,Af,25.8,4200.0,LEGACY,-2147483648,-2147483648
+CR-Fsc,Filadelfia sugar cane cropland,Costa Rica,Guanacaste,CRO,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CR-Fsc,10.4189,-85.4732,18.0,Aw,,,LEGACY,2014,2018
+CR-Lse,La Selva,Costa Rica,NA_character_,EBF,1998,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CR-Lse,10.4233,-84.0211,100.0,Am,25.9,3965.57,LEGACY,1997,1999
+CR-Nmr,Nicoya melon-rice cropland,Costa Rica,Guanacaste,CRO,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/CR-Nmr,10.0829,-85.4694,166.0,Aw,,,LEGACY,-2147483648,-2147483648
+CR-SoC,Soltis Center,Costa Rica,Alajuela,EBF,2014,2019,https://ameriflux.lbl.gov/sites/siteinfo/CR-SoC,10.3827,-84.621,538.0,Af,23.1,4200.0,CCBY4.0,2014,2018
+MX-Aog,Alamos Old-Growth tropical dry forest,Mexico,Sonora,DBF,2016,2018,https://ameriflux.lbl.gov/sites/siteinfo/MX-Aog,26.9968,-108.7892,367.284,Bsh,24.2,732.0,CCBY4.0,2015,2018
+MX-Asf,Alamos Mid-Secondary tropical dry forest,Mexico,Sonora,DBF,2015,2020,https://ameriflux.lbl.gov/sites/siteinfo/MX-Asf,27.0046,-108.7795,384.0,Bsh,24.2,732.0,LEGACY,-2147483648,-2147483648
+MX-BRN,Bernal,Mexico,Querétaro,OSH,2017,2018,https://ameriflux.lbl.gov/sites/siteinfo/MX-BRN,20.7168,-99.9413,2050.0,Bsk,17.1,476.0,LEGACY,-2147483648,-2147483648
+MX-CLS,"Coastal Lagoon, Gulf of California",Mexico,Sonora,WAT,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/MX-CLS,27.9541,-110.9726,0.0,Bwh,23.0,260.0,LEGACY,-2147483648,-2147483648
+MX-EMg,El Mogor,Mexico,Baja California,CSH,2008,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/MX-EMg,32.0298,-116.6045,409.0,Bsh,17.0,281.0,LEGACY,2015,2017
+MX-Iit,Instituto de Ingenieria y Tecnologia - UACJ,Mexico,Chihuahua,URB,2020,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/MX-Iit,31.7434,-106.4316,1123.0,Bwk,27.0,457.2,LEGACY,-2147483648,-2147483648
+MX-ISD,San Isidro,Mexico,Coahuila de Zaragoza,OSH,2019,2020,https://ameriflux.lbl.gov/sites/siteinfo/MX-ISD,25.3004,-101.3924,1702.0,Bsh,17.5,493.0,LEGACY,-2147483648,-2147483648
+MX-Lpa,La Paz,Mexico,NA_character_,OSH,2001,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/MX-Lpa,24.1292,-110.438,21.0,Bwh,23.6,182.0,LEGACY,2004,2008
+MX-Oak,"Encino, North American monsoon oak savanna",Mexico,Sonora,WSA,2008,2013,https://ameriflux.lbl.gov/sites/siteinfo/MX-Oak,29.9591,-110.4615,1314.0,Bsh,18.9,496.0,LEGACY,-2147483648,-2147483648
+MX-PMm,Puerto Morelos mangrove,Mexico,Quintana Roo,WET,2017,2018,https://ameriflux.lbl.gov/sites/siteinfo/MX-PMm,20.8462,-86.8992,10.0,Aw,26.2,1222.0,CCBY4.0,2017,2018
+MX-Ray,"Rayon, monsoon subtropical shrubland",Mexico,Sonora,WSA,2008,2014,https://ameriflux.lbl.gov/sites/siteinfo/MX-Ray,29.7446,-110.5306,632.0,Bsh,21.4,487.0,LEGACY,2007,2012
+MX-Sgt,Sonoran short arid Mangrove,Mexico,Sonora,WET,2014,2016,https://ameriflux.lbl.gov/sites/siteinfo/MX-Sgt,29.3408,-112.2796,0.0,Bwh,20.0,126.0,LEGACY,-2147483648,-2147483648
+MX-Tes,"Tesopaco, secondary tropical dry forest",Mexico,Sonora,DBF,2004,2008,https://ameriflux.lbl.gov/sites/siteinfo/MX-Tes,27.8446,-109.2977,460.0,Bsh,24.3,647.0,CCBY4.0,2004,2008
+PA-Bar,Barro Colorado Island,Panama,NA_character_,EBF,2012,2017,https://ameriflux.lbl.gov/sites/siteinfo/PA-Bar,9.1568,-79.8486,150.0,Am,26.0,2800.0,CCBY4.0,-2147483648,-2147483648
+PA-Bas,Barro Colorado Island,Panama,NA_character_,EBF,2019,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/PA-Bas,9.1565,-79.8482,150.0,Am,26.0,2800.0,CCBY4.0,-2147483648,-2147483648
+PE-AMG,Los Amigos,Peru,Madre de Dios,EBF,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/PE-AMG,-12.5598,-70.1018,290.0,Af,25.5,2335.0,CCBY4.0,-2147483648,-2147483648
+PE-BRE,El Breo,Peru,San Martín,EBF,2023,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/PE-BRE,-7.1026,-77.1619,755.0,Af,,,CCBY4.0,-2147483648,-2147483648
+PE-PAN,Panguana,Peru,Huánuco,EBF,2023,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/PE-PAN,-9.6237,-74.9315,220.0,Af,25.5,2335.0,CCBY4.0,-2147483648,-2147483648
+PE-QFR,Quistococha Forest Reserve,Peru,Loreto,WET,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/PE-QFR,-3.8344,-73.319,104.0,Af,,,CCBY4.0,2018,2019
+PE-TNR,Tambopata,Peru,Madre de Dios,MF,2015,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/PE-TNR,-12.8314,-69.2836,214.0,Af,25.5,2335.0,LEGACY,-2147483648,-2147483648
+PR-xGU,NEON Guanica Forest (GUAN),Puerto Rico,NA_character_,EBF,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/PR-xGU,17.9696,-66.8687,143.0,Am,25.0,1168.0,CCBY4.0,2018,2022
+PR-xLA,NEON Lajas Experimental Station (LAJA),Puerto Rico,NA_character_,GRA,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/PR-xLA,18.0212,-67.0769,24.0,Am,25.0,1168.0,CCBY4.0,2018,2022
+US-A03,ARM-AMF3-Oliktok,USA,AK,BSV,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-A03,70.4953,-149.8823,5.0,ET,-11.2,115.1,CCBY4.0,2014,2021
+US-A10,ARM-NSA-Barrow,USA,AK,BSV,2012,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-A10,71.3242,-156.6149,4.0,ET,-11.2,115.1,CCBY4.0,2011,2020
+US-A32,ARM-SGP Medford hay pasture,USA,OK,GRA,2015,2017,https://ameriflux.lbl.gov/sites/siteinfo/US-A32,36.8193,-97.8198,335.0,Cfa,33.9,889.0,CCBY4.0,2015,2017
+US-A39,ARM-SGP-Morrison,USA,OK,CRO,2015,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-A39,36.3776,-96.069,306.0,Csa,14.95,965.0,CCBY4.0,-2147483648,-2147483648
+US-A74,ARM SGP milo field,USA,OK,CRO,2016,2017,https://ameriflux.lbl.gov/sites/siteinfo/US-A74,36.8085,-97.5489,337.0,Cfa,33.9,889.0,CCBY4.0,2015,2017
+US-AaG,Arkansas Grassland,USA,GA,GRA,2016,2017,https://ameriflux.lbl.gov/sites/siteinfo/US-AaG,33.1105,-91.6282,33.0,Cfa,17.4,1410.0,CCBY4.0,-2147483648,-2147483648
+US-Act,Acton Lake Flux Tower Site,USA,OH,WAT,2017,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-Act,39.582,-84.755,263.0,Cfa,11.1,907.0,CCBY4.0,2017,2018
+US-ADR,Amargosa Desert Research Site (ADRS),USA,NV,BSV,2011,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-ADR,36.7653,-116.6933,842.0,Bwh,17.5,110.0,CCBY4.0,2011,2017
+US-AF1,MPG - Apricot Lane Farms,USA,CA,CVM,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-AF1,34.3108,-118.9244,300.0,Csb,15.9,376.4,CCBY4.0,-2147483648,-2147483648
+US-Akn,Savannah River Site,USA,SC,MF,2011,2021,https://ameriflux.lbl.gov/sites/siteinfo/US-Akn,33.3825,-81.5653,93.0,NA_character_,,,CCBY4.0,2011,2022
+US-ALQ,Allequash Creek Site,USA,WI,WET,2015,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-ALQ,46.0308,-89.6067,,Dfb,,,CCBY4.0,2015,2024
+US-AMS,Argonne Testbed for Multiscale Observational Science (ATMOS),USA,IL,GRA,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-AMS,41.7018,-87.9963,232.0,Cfa,11.7,940.0,CCBY4.0,-2147483648,-2147483648
+US-An1,Anaktuvuk River Severe Burn,USA,AK,OSH,2008,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-An1,68.99,-150.28,600.0,NA_character_,,,CCBY4.0,2008,2019
+US-An2,Anaktuvuk River Moderate Burn,USA,AK,OSH,2008,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-An2,68.95,-150.21,600.0,NA_character_,,,CCBY4.0,2008,2019
+US-An3,Anaktuvuk River Unburned,USA,AK,OSH,2008,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-An3,68.93,-150.27,600.0,NA_character_,,,CCBY4.0,2008,2019
+US-AoL,Low Density Apple Orchard,USA,MI,MF,2023,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-AoL,43.2513,-85.7648,270.4,Dfb,9.7,2.794,CCBY4.0,-2147483648,-2147483648
+US-AR1,ARM USDA UNL OSU Woodward Switchgrass 1,USA,OK,GRA,2009,2012,https://ameriflux.lbl.gov/sites/siteinfo/US-AR1,36.4267,-99.42,611.0,Dsa,,,CCBY4.0,2009,2012
+US-AR2,ARM USDA UNL OSU Woodward Switchgrass 2,USA,OK,GRA,2009,2012,https://ameriflux.lbl.gov/sites/siteinfo/US-AR2,36.6358,-99.5975,646.0,Dsa,,,CCBY4.0,2009,2012
+US-ARb,ARM Southern Great Plains burn site- Lamont,USA,OK,GRA,2005,2006,https://ameriflux.lbl.gov/sites/siteinfo/US-ARb,35.5497,-98.0402,424.0,Cfa,,,CCBY4.0,2005,2006
+US-ARc,ARM Southern Great Plains control site- Lamont,USA,OK,GRA,2005,2006,https://ameriflux.lbl.gov/sites/siteinfo/US-ARc,35.5465,-98.04,424.0,Cfa,,,CCBY4.0,2005,2006
+US-ARM,ARM Southern Great Plains site- Lamont,USA,OK,CRO,2002,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-ARM,36.6058,-97.4888,314.0,Cfa,14.76,843.0,CCBY4.0,2003,2024
+US-ASH,USSL San Joaquin Valley Almond High Salinity,USA,CA,DBF,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-ASH,36.1697,-120.201,147.0,Bwk,18.1,210.0,CCBY4.0,2016,2017
+US-ASL,USSL San Joaquin Valley Almond Low Salinity,USA,CA,DBF,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-ASL,36.9466,-120.1024,78.0,Bwk,16.7,311.0,CCBY4.0,2016,2017
+US-ASM,USSL San Joaquin Valley Almond Medium Salinity,USA,CA,DBF,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-ASM,36.1777,-120.2026,147.0,Bwk,18.1,210.0,CCBY4.0,2016,2017
+US-Atq,Atqasuk,USA,AK,WET,1999,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Atq,70.4696,-157.4089,15.0,ET,-9.7,93.0,LEGACY,1999,2006
+US-Aud,Audubon Research Ranch,USA,AZ,GRA,2002,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Aud,31.5907,-110.5104,1469.0,Bsk,14.85,438.35,LEGACY,2002,2011
+US-Bar,Bartlett Experimental Forest,USA,NH,DBF,2004,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Bar,44.0646,-71.2881,272.0,Dfb,5.61,1245.77,CCBY4.0,2004,2022
+US-BCM,Blue Cypress Marsh,USA,FL,WET,2009,2014,https://ameriflux.lbl.gov/sites/siteinfo/US-BCM,27.6953,-80.7114,23.0,Cwa,22.6,1142.0,CCBY4.0,-2147483648,-2147483648
+US-Bd4,Burdette Farm Rice Field - 4N,USA,AR,CRO,2020,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Bd4,35.8139,-89.9862,70.0,Cfa,,,CCBY4.0,-2147483648,-2147483648
+US-Bd5,Burdette Farm Rice Field - Seagraves South,USA,AR,CRO,2020,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Bd5,35.8105,-90.0194,70.0,Cfa,,,CCBY4.0,-2147483648,-2147483648
+US-Bd6,Burdette Farm Rice - Seagraves North,USA,AR,CRO,2020,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Bd6,35.814,-90.0194,70.0,Cfa,,,CCBY4.0,-2147483648,-2147483648
+US-BdA,Burdette Farm Rice Field - AWD,USA,AR,CRO,NA_character_,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-BdA,35.8089,-90.0327,,Cfa,,,CCBY4.0,-2147483648,-2147483648
+US-BdC,Burdette Farm Rice Field - conventional,USA,AR,CRO,NA_character_,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-BdC,35.8089,-90.0284,,Cfa,,,CCBY4.0,-2147483648,-2147483648
+US-Beo,Barrow Environmental Observatory (BEO) tower,USA,AK,WET,2000,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Beo,71.281,-156.6123,,ET,-11.3,72.0,LEGACY,-2147483648,-2147483648
+US-Bes,Barrow-Bes (Biocomplexity Experiment South tower),USA,AK,WET,2005,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Bes,71.2809,-156.5965,4.6,ET,-12.0,173.0,LEGACY,-2147483648,-2147483648
+US-BgC,Big Chico Creek,USA,CA,WSA,2023,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-BgC,39.8125,-121.8135,135.0,Csa,16.5,650.0,CCBY4.0,-2147483648,-2147483648
+US-Bi1,Bouldin Island Alfalfa,USA,CA,CRO,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Bi1,38.0992,-121.4993,-2.7,Csa,16.0,338.0,CCBY4.0,2016,2023
+US-Bi2,Bouldin Island corn,USA,CA,CRO,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Bi2,38.1091,-121.5351,-5.0,Csa,16.0,338.0,CCBY4.0,2017,2023
+US-Bkg,Brookings,USA,SD,GRA,2004,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Bkg,44.3453,-96.8362,510.0,Dfa,6.03,585.76,LEGACY,2004,2010
+US-Blk,Black Hills,USA,SD,ENF,2003,2008,https://ameriflux.lbl.gov/sites/siteinfo/US-Blk,44.158,-103.65,1718.0,Dfb,6.23,573.79,LEGACY,2004,2008
+US-Blo,Blodgett Forest,USA,CA,ENF,1997,2006,https://ameriflux.lbl.gov/sites/siteinfo/US-Blo,38.8953,-120.6328,1315.0,Csa,11.09,1226.0,CCBY4.0,1997,2007
+US-BMM,Bangtail Mountain Meadow,USA,MT,GRA,2016,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-BMM,45.783,-110.7776,2324.0,Dfc,,,CCBY4.0,2016,2019
+US-Bn1,"Bonanza Creek, 1920 Burn site near Delta Junction",USA,AK,ENF,2003,2004,https://ameriflux.lbl.gov/sites/siteinfo/US-Bn1,63.9198,-145.3782,518.0,Dsc,,,LEGACY,2002,2004
+US-Bn2,"Bonanza Creek, 1987 Burn site near Delta Junction",USA,AK,DBF,2003,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Bn2,63.9198,-145.3782,410.0,Dsc,,,LEGACY,2002,2004
+US-Bn3,"Bonanza Creek, 1999 Burn site near Delta Junction",USA,AK,OSH,2003,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Bn3,63.9227,-145.7442,469.0,Dsc,,,LEGACY,2002,2004
+US-Bo1,Bondville,USA,IL,CRO,1996,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Bo1,40.0062,-88.2904,219.0,Dfa,11.02,991.29,CCBY4.0,1996,2008
+US-Bo2,Bondville (companion site),USA,IL,CRO,2004,2008,https://ameriflux.lbl.gov/sites/siteinfo/US-Bo2,40.009,-88.29,219.0,Dfa,11.02,991.29,CCBY4.0,2004,2008
+US-Br1,Brooks Field Site 10- Ames,USA,IA,CRO,2001,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Br1,41.9749,-93.6906,313.0,Dfa,8.95,842.33,LEGACY,2005,2011
+US-Br2,Brooks Field Site 1011- Ames,USA,IA,CRO,2005,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Br2,41.9757,-93.6925,314.0,Dfa,8.89,846.74,LEGACY,-2147483648,-2147483648
+US-Br3,Brooks Field Site 11- Ames,USA,IA,CRO,2001,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Br3,41.9747,-93.6936,313.0,Dfa,8.9,846.6,LEGACY,2005,2011
+US-BRG,Bayles Road Grassland Tower,USA,IN,GRA,2016,2021,https://ameriflux.lbl.gov/sites/siteinfo/US-BRG,39.2167,-86.5406,180.0,Cfa,11.8,1200.0,CCBY4.0,2016,2020
+US-Brw,Barrow,USA,AK,WET,1998,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Brw,71.3225,-156.6092,1.0,ET,-12.6,85.0,LEGACY,1998,2007
+US-Bsg,Burns Sagebrush,USA,OR,OSH,2013,2018,https://ameriflux.lbl.gov/sites/siteinfo/US-Bsg,43.4712,-119.6909,1398.0,Bsk,7.36,289.0,CCBY4.0,2014,2015
+US-BSM,Barnstable Great Marsh,USA,MA,WET,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-BSM,41.7297,-70.3644,0.5,Dfb,9.9,1195.0,LEGACY,-2147483648,-2147483648
+US-BWa,INFLUX - NIST Turfgrass Site,USA,MD,URB,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-BWa,39.1389,-77.2175,,Cfa,,,CCBY4.0,2021,2023
+US-BWb,INFLUX - Montgomery County pasture site,USA,MD,GRA,2022,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-BWb,39.1955,-77.4509,,Cfa,,,CCBY4.0,2022,2023
+US-BZB,Bonanza Creek Thermokarst Bog,USA,AK,WET,2011,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-BZB,64.6955,-148.3208,100.0,Dfd,-2.4,274.0,CCBY4.0,2011,2022
+US-BZF,Bonanza Creek Rich Fen,USA,AK,WET,2011,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-BZF,64.7013,-148.3121,95.0,Dfd,-2.4,274.0,CCBY4.0,2011,2022
+US-BZL,Goldstream Valley Thermokarst Lake,USA,AK,WET,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-BZL,64.9194,-147.8222,188.0,Dfd,-2.4,274.0,CCBY4.0,-2147483648,-2147483648
+US-BZo,Bonanza Creek Old Thermokarst Bog,USA,AK,WET,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-BZo,64.6936,-148.33,100.0,Dfd,-2.4,274.0,CCBY4.0,2018,2022
+US-BZS,Bonanza Creek Black Spruce,USA,AK,ENF,2010,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-BZS,64.6963,-148.3235,100.0,Dfd,-2.4,274.0,CCBY4.0,2010,2021
+US-CaV,Canaan Valley,USA,WV,GRA,2004,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CaV,39.0633,-79.4208,994.0,Cfb,7.97,1317.0,LEGACY,2004,2010
+US-CC1,Coloma Corn 1,USA,WI,CRO,2021,2021,https://ameriflux.lbl.gov/sites/siteinfo/US-CC1,44.0732,-89.6787,314.0,Dfb,7.5,906.5,CCBY4.0,2021,2021
+US-CC2,Coloma Corn 2,USA,WI,CRO,2021,2021,https://ameriflux.lbl.gov/sites/siteinfo/US-CC2,44.1039,-89.6196,320.0,Dfb,7.5,906.5,CCBY4.0,2021,2021
+US-CdM,Cedar Mesa,USA,UT,WSA,2019,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CdM,37.5241,-109.7471,1860.0,Bsk,11.3,348.0,CCBY4.0,2019,2021
+US-Ced,Cedar Bridge,USA,NJ,CSH,2005,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Ced,39.8379,-74.3791,58.0,Cfa,11.04,1138.0,CCBY4.0,2005,2014
+US-CF1,CAF-LTAR Cook East,USA,WA,CRO,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CF1,46.7815,-117.0821,794.0,Dsb,9.0,550.0,CCBY4.0,2017,2021
+US-CF2,CAF-LTAR Cook West,USA,WA,CRO,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CF2,46.784,-117.0908,807.0,Dsb,9.0,550.0,CCBY4.0,2017,2021
+US-CF3,CAF-LTAR Boyd North,USA,WA,CRO,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CF3,46.7551,-117.1261,795.0,Dsb,9.0,550.0,CCBY4.0,2017,2021
+US-CF4,CAF-LTAR Boyd South,USA,WA,CRO,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CF4,46.7518,-117.1285,795.0,Dsb,9.0,550.0,CCBY4.0,2017,2021
+US-CGG,Concord Grazed Grassland,USA,CA,GRA,2019,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CGG,37.938,-121.9761,119.5,Csa,16.0,419.0,CCBY4.0,2019,2022
+US-ChR,Chestnut Ridge,USA,TN,DBF,2005,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-ChR,35.9311,-84.3324,286.0,Cfa,13.91,1358.85,LEGACY,2005,2010
+US-CLF,Cole Farm,USA,PA,CVM,2017,2020,https://ameriflux.lbl.gov/sites/siteinfo/US-CLF,40.6366,-77.9424,244.0,Dfb,9.5,1050.0,CCBY4.0,2017,2020
+US-Cms,Central Marsh,USA,AK,WET,1999,2005,https://ameriflux.lbl.gov/sites/siteinfo/US-Cms,71.3202,-156.6223,6.0,ET,-12.6,274.0,CCBY4.0,1999,2000
+US-CMW,Charleston Mesquite Woodland,USA,AZ,DBF,2001,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CMW,31.6637,-110.1777,1199.0,Bsh,17.0,288.0,CCBY4.0,2000,2021
+US-Cop,Corral Pocket,USA,UT,GRA,2001,2007,https://ameriflux.lbl.gov/sites/siteinfo/US-Cop,38.09,-109.39,1520.0,NA_character_,,,CCBY4.0,2001,2007
+US-CPk,Chimney Park,USA,WY,ENF,2009,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CPk,41.068,-106.1187,2750.0,Dfc,6.1,545.0,CCBY4.0,2009,2013
+US-CRK,Davy Crockett National Forest,USA,TX,ENF,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CRK,31.4629,-95.3415,151.0,Cfa,19.0,1148.0,CCBY4.0,2022,2023
+US-CRT,Curtice Walter-Berger cropland,USA,OH,CRO,2011,2013,https://ameriflux.lbl.gov/sites/siteinfo/US-CRT,41.6285,-83.3471,180.0,Dfa,10.1,849.0,CCBY4.0,2011,2013
+US-CS1,Central Sands Irrigated Agricultural Field,USA,WI,CRO,2018,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-CS1,44.1031,-89.5379,328.0,Dfa,7.0,830.0,CCBY4.0,2018,2019
+US-CS2,Tri county school Pine Forest,USA,WI,ENF,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CS2,44.1467,-89.5002,328.0,Dfa,7.0,830.0,CCBY4.0,2018,2022
+US-CS3,Central Sands Irrigated Agricultural Field,USA,WI,CRO,2019,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CS3,44.1394,-89.5727,328.0,Dfa,7.0,830.0,CCBY4.0,2019,2020
+US-CS4,Central Sands Irrigated Agricultural Field,USA,WI,CRO,2020,2020,https://ameriflux.lbl.gov/sites/siteinfo/US-CS4,44.1597,-89.5475,328.0,Dfa,7.0,830.0,CCBY4.0,2020,2021
+US-CS5,Central Sands Irrigated Agricultural Field,USA,WI,CRO,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CS5,44.1095,-89.5377,328.0,Dfa,7.0,830.0,CCBY4.0,2021,2021
+US-CS6,Central Sands Irrigated Agricultural Field,USA,WI,CRO,2022,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CS6,44.4297,-89.544,328.0,Dfa,7.0,830.0,CCBY4.0,2022,2023
+US-CS7,Central Sands Forest,USA,WI,ENF,2022,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CS7,44.4375,-89.5443,328.0,Dfa,7.0,830.0,CCBY4.0,-2147483648,-2147483648
+US-CS8,Central Sands Irrigated Agricultural Field,USA,WI,CRO,2023,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CS8,44.4338,-89.5364,328.0,Dfa,7.0,830.0,CCBY4.0,2023,2023
+US-Cst,Crossett Experimental Forest,USA,AR,ENF,2012,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Cst,33.0442,-91.9204,50.0,Cfa,17.4,1410.0,CCBY4.0,2013,2017
+US-Ctn,Cottonwood,USA,SD,GRA,2007,2009,https://ameriflux.lbl.gov/sites/siteinfo/US-Ctn,43.95,-101.8466,744.0,NA_character_,,,LEGACY,2006,2009
+US-CwG,Coweeta Grassland,USA,GA,GRA,2017,2018,https://ameriflux.lbl.gov/sites/siteinfo/US-CwG,34.9682,-83.3951,657.0,Dfb,12.9,1495.0,CCBY4.0,-2147483648,-2147483648
+US-Cwt,Coweeta,USA,NC,DBF,2011,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Cwt,35.0592,-83.4275,690.0,Dfb,13.0,1800.0,CCBY4.0,2011,2015
+US-CX1,"Central Plains Experimental Range 1, Nunn, Colorado",USA,CO,GRA,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CX1,40.833,-104.76,1600.0,NA_character_,8.4,340.0,LEGACY,-2147483648,-2147483648
+US-CX2,"Central Plains Experimental Range 2, Nunn, Colorado",USA,CO,GRA,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CX2,40.8402,-104.7672,1600.0,NA_character_,8.4,340.0,LEGACY,-2147483648,-2147483648
+US-CZ1,"Sierra Critical Zone, Sierra Transect, Oak/Pine Woodland, San Joaquin Experimental Range",USA,CA,SAV,2009,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CZ1,37.1088,-119.7313,400.0,NA_character_,,,LEGACY,-2147483648,-2147483648
+US-CZ2,"Sierra Critical Zone, Sierra Transect, Ponderosa Pine Forest, Soaproot Saddle",USA,CA,ENF,2010,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CZ2,37.0311,-119.2566,1160.0,NA_character_,,,LEGACY,2010,2016
+US-CZ3,"Sierra Critical Zone, Sierra Transect, Sierran Mixed Conifer, P301",USA,CA,ENF,2008,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CZ3,37.0674,-119.1951,2015.0,NA_character_,,,LEGACY,2008,2016
+US-CZ4,"Sierra Critical Zone, Sierra Transect, Subalpine Forest, Shorthair",USA,CA,ENF,2009,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-CZ4,37.0675,-118.9867,2710.0,NA_character_,,,LEGACY,2009,2016
+US-DBk,Berkeley Way West,USA,CA,URB,2022,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-DBk,37.8736,-122.2684,,Csa,,,CCBY4.0,-2147483648,-2147483648
+US-DCS,Dwarf Cypress Swamp,USA,FL,WET,2012,2014,https://ameriflux.lbl.gov/sites/siteinfo/US-DCS,25.7626,-80.9078,2.05,Cwa,23.1,1312.0,CCBY4.0,-2147483648,-2147483648
+US-Dea,California UC ANR Desert Research and Extension Center Alfalfa,USA,CA,CRO,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Dea,32.8136,-115.4423,-53.0,Dsa,20.5,131.0,LEGACY,-2147483648,-2147483648
+US-Deu,California UC ANR Desert Research and Extension Center Urban Farm Tower,USA,CA,URB,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Deu,32.8056,-115.4456,-53.0,Dsa,20.5,131.0,LEGACY,-2147483648,-2147483648
+US-DFC,"US Dairy Forage Research Center, Prairie du Sac",USA,WI,CRO,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-DFC,43.3448,-89.7117,264.9,Dfb,7.65,787.0,CCBY4.0,2018,2022
+US-DFK,Dairy Forage Research Center - Kernza,USA,WI,CRO,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-DFK,43.3453,-89.7154,210.0,Dfb,7.65,787.0,CCBY4.0,2018,2021
+US-Dia,Diablo,USA,CA,GRA,2010,2015,https://ameriflux.lbl.gov/sites/siteinfo/US-Dia,37.6773,-121.5296,323.0,Csa,15.6,265.0,CCBY4.0,2010,2012
+US-Dix,Fort Dix,USA,NJ,MF,2005,2008,https://ameriflux.lbl.gov/sites/siteinfo/US-Dix,39.9712,-74.4346,48.0,Cfa,11.07,1126.63,CCBY4.0,2005,2008
+US-Dk1,Duke Forest-open field,USA,NC,GRA,2001,2008,https://ameriflux.lbl.gov/sites/siteinfo/US-Dk1,35.9712,-79.0934,168.0,Cfa,14.36,1169.75,CCBY4.0,2001,2008
+US-Dk2,Duke Forest-hardwoods,USA,NC,DBF,2001,2008,https://ameriflux.lbl.gov/sites/siteinfo/US-Dk2,35.9736,-79.1004,168.0,Cfa,14.36,1168.69,CCBY4.0,2001,2008
+US-Dk3,Duke Forest - loblolly pine,USA,NC,ENF,2001,2008,https://ameriflux.lbl.gov/sites/siteinfo/US-Dk3,35.9782,-79.0942,163.0,Cfa,14.36,1169.69,CCBY4.0,2001,2008
+US-Dmg,Dutch Slough Marsh Gilbert Tract,USA,CA,WET,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Dmg,38.0015,-121.6691,1.0,Csa,16.1,365.0,CCBY4.0,2021,2023
+US-DPP,Disney Wilderness Preserve Pine Flatwoods,USA,FL,ENF,2010,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-DPP,28.1046,-81.419,23.0,Cwa,22.6,1142.0,CCBY4.0,-2147483648,-2147483648
+US-DPW,Disney Wilderness Preserve Wetland,USA,FL,WET,2013,2017,https://ameriflux.lbl.gov/sites/siteinfo/US-DPW,28.0521,-81.4361,23.0,Cwa,22.6,1142.0,CCBY4.0,2013,2017
+US-DS1,Staten Corn 1,USA,CA,CRO,2018,2020,https://ameriflux.lbl.gov/sites/siteinfo/US-DS1,38.1335,-121.539,-6.0,Csa,16.0,432.0,LEGACY,-2147483648,-2147483648
+US-DS2,Staten Corn 2,USA,CA,CRO,2020,2024,https://ameriflux.lbl.gov/sites/siteinfo/US-DS2,38.1375,-121.514,-6.0,Csa,16.0,432.0,LEGACY,-2147483648,-2147483648
+US-DS3,Staten Rice 1,USA,CA,CRO,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-DS3,38.1235,-121.549,-7.0,Csa,16.0,432.0,CCBY4.0,2021,2023
+US-EA4,EAA Field Research Park Woodland,USA,TX,MF,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-EA4,29.6633,-98.3816,297.0,Cfa,20.3,836.0,CCBY4.0,2021,2024
+US-EA5,Uvalde Ranch Mesquite Woodland,USA,TX,CSH,2021,2023,https://ameriflux.lbl.gov/sites/siteinfo/US-EA5,29.3584,-99.9576,322.0,Cfa,20.9,632.0,CCBY4.0,2021,2023
+US-EA6,Camp Wood Shield Ranch Oak Savannah,USA,TX,WSA,2023,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-EA6,29.6561,-99.9588,480.0,Cfa,19.4,703.0,CCBY4.0,2023,2024
+US-EDN,Eden Landing Ecological Reserve,USA,CA,WET,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-EDN,37.6156,-122.114,,Csa,,,CCBY4.0,2018,2019
+US-EKH,Elkhorn Slough Hester Marsh,USA,CA,WET,2022,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-EKH,36.8094,-121.7523,0.5,Csb,10.0,894.0,CCBY4.0,-2147483648,-2147483648
+US-EKN,Elkhorn Slough North Marsh,USA,CA,WET,2023,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-EKN,36.8357,-121.7328,0.0,Cfc,10.0,894.0,CCBY4.0,-2147483648,-2147483648
+US-EKP,Elkhorn Slough Porter Marsh,USA,CA,WET,2022,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-EKP,36.8558,-121.7488,0.0,Csb,10.0,894.0,CCBY4.0,-2147483648,-2147483648
+US-EKY,Elkhorn Slough Yampah Marsh,USA,CA,WET,2022,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-EKY,36.8105,-121.7487,0.0,Csb,10.0,894.0,CCBY4.0,-2147483648,-2147483648
+US-Elm,Everglades (long hydroperiod marsh),USA,FL,WET,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Elm,25.5519,-80.7826,0.77,NA_character_,,,CCBY4.0,2008,2014
+US-EML,"Eight Mile Lake Permafrost thaw gradient, Healy Alaska.",USA,AK,OSH,2008,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-EML,63.8784,-149.2536,662.0,ET,-1.0,378.0,CCBY4.0,2008,2020
+US-EPM,Edwards Plateau Martin,USA,TX,SAV,2020,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-EPM,30.8167,-99.8619,,Cfa,19.0,600.0,CCBY4.0,-2147483648,-2147483648
+US-Esm,Everglades (short hydroperiod marsh),USA,FL,WET,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Esm,25.4379,-80.5946,1.07,NA_character_,,,CCBY4.0,2008,2015
+US-EvM,Everglades Saltwater intrusion marsh,USA,FL,WET,2020,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-EvM,25.3539,-80.381,0.332,NA_character_,24.2,1200.0,CCBY4.0,2020,2022
+US-FBE,Bob Allen Key LTER East,USA,FL,WAT,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-FBE,25.0266,-80.6814,0.0,Cfa,25.5,1525.0,CCBY4.0,-2147483648,-2147483648
+US-Fcr,Cascaden Ridge Fire Scar,USA,AK,OSH,2011,2014,https://ameriflux.lbl.gov/sites/siteinfo/US-Fcr,65.3968,-148.9348,265.0,Dwc,-2.4,,CCBY4.0,2011,2014
+US-Fmf,Flagstaff - Managed Forest,USA,AZ,ENF,2006,2010,https://ameriflux.lbl.gov/sites/siteinfo/US-Fmf,35.1426,-111.7273,2160.0,Csb,9.5,546.0,CCBY4.0,2005,2010
+US-Fo1,Flux Observations of Carbon from an Airborne Laboratory (FOCAL) Campaign Site 1,USA,AK,WET,NA_character_,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Fo1,70.085,-148.5671,28.0,Dsc,,,LEGACY,-2147483648,-2147483648
+US-Fo2,Flux Observations of Carbon from an Airborne Laboratory (FOCAL) Campaign Site 2,USA,AK,WET,NA_character_,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Fo2,70.0229,-148.6598,41.0,Dsc,,,LEGACY,-2147483648,-2147483648
+US-FPe,Fort Peck,USA,MT,GRA,2000,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-FPe,48.3077,-105.1019,634.0,Bsk,5.48,334.8,LEGACY,2000,2008
+US-FR1,Freeman Ranch- Grassland,USA,TX,GRA,2004,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-FR1,29.93,-98.01,230.0,Cfa,19.56,866.65,LEGACY,-2147483648,-2147483648
+US-FR2,Freeman Ranch- Mesquite Juniper,USA,TX,WSA,2004,2013,https://ameriflux.lbl.gov/sites/siteinfo/US-FR2,29.9495,-97.9962,271.9,Cfa,19.48,864.0,LEGACY,2005,2008
+US-FR3,Freeman Ranch- Woodland,USA,TX,CSH,2004,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-FR3,29.94,-97.99,232.0,Cfa,19.59,869.23,LEGACY,2004,2012
+US-Fuf,Flagstaff - Unmanaged Forest,USA,AZ,ENF,2006,2010,https://ameriflux.lbl.gov/sites/siteinfo/US-Fuf,35.089,-111.762,2180.0,Csb,8.7,562.0,CCBY4.0,2005,2010
+US-Fwf,Flagstaff - Wildfire,USA,AZ,GRA,2006,2010,https://ameriflux.lbl.gov/sites/siteinfo/US-Fwf,35.4454,-111.7718,2270.0,Csb,8.4,557.0,CCBY4.0,2005,2010
+US-GBT,GLEES Brooklyn Tower,USA,WY,ENF,1991,2006,https://ameriflux.lbl.gov/sites/siteinfo/US-GBT,41.3658,-106.2397,3191.0,Dfc,0.8,1200.0,CCBY4.0,1999,2006
+US-GCE,Georgia Coastal Ecosystems LTER Flux Tower,USA,GA,WET,2013,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-GCE,31.4441,-81.2835,0.625,Cfa,19.83,1284.0,LEGACY,-2147483648,-2147483648
+US-GL1,Stannard Rock,USA,MI,WAT,2008,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-GL1,47.1835,-87.2251,183.0,Dfb,5.4,,CCBY4.0,2008,2022
+US-GL2,Granite Island,USA,MI,WAT,2010,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-GL2,46.7167,-87.4,183.0,Dfb,6.6,762.0,CCBY4.0,-2147483648,-2147483648
+US-GLE,GLEES,USA,WY,ENF,2002,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-GLE,41.3665,-106.2399,3197.0,Dfc,0.8,1200.0,CCBY4.0,1999,2020
+US-GMF,Great Mountain Forest,USA,CT,MF,1999,2004,https://ameriflux.lbl.gov/sites/siteinfo/US-GMF,41.9667,-73.2333,380.0,Dfb,6.08,1258.79,LEGACY,1999,2004
+US-Goo,Goodwin Creek,USA,MS,GRA,2002,2006,https://ameriflux.lbl.gov/sites/siteinfo/US-Goo,34.2547,-89.8735,87.0,Cfa,15.89,1425.77,LEGACY,2002,2006
+US-GZ1,"Genesee, ID On-farm site Zone 1",USA,WA,CRO,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-GZ1,46.5008,-116.8068,746.0,Csb,11.4,294.1,LEGACY,-2147483648,-2147483648
+US-GZ2,"Genesee, ID On-farm site Zone 2",USA,WA,CRO,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-GZ2,46.4978,-116.8047,731.0,Csb,11.4,294.1,LEGACY,-2147483648,-2147483648
+US-GZ3,"Genesee, ID On-farm site Zone 3",USA,WA,CRO,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-GZ3,46.4949,-116.8019,713.0,Csb,11.4,294.1,LEGACY,-2147483648,-2147483648
+US-Ha1,Harvard Forest EMS Tower (HFR1),USA,MA,DBF,1991,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Ha1,42.5378,-72.1715,340.0,Dfb,6.62,1071.0,CCBY4.0,1991,2023
+US-Ha2,Harvard Forest Hemlock Site,USA,MA,ENF,2004,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Ha2,42.5393,-72.1779,360.0,Dfb,6.56,1071.0,CCBY4.0,2004,2023
+US-HB1,North Inlet Crab Haul Creek,USA,SC,WET,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-HB1,33.3455,-79.1957,0.1,Cfa,18.3,1429.0,CCBY4.0,2019,2022
+US-HB2,Hobcaw Barony Mature Longleaf Pine,USA,SC,ENF,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-HB2,33.3242,-79.244,4.7,Cfa,18.3,1429.0,CCBY4.0,2019,2019
+US-HB3,Hobcaw Barony Longleaf Pine Restoration,USA,SC,ENF,2019,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-HB3,33.3482,-79.2322,7.3,Cfa,18.3,1429.0,CCBY4.0,2019,2022
+US-HB4,Minim Creek Brackish Impoundment,USA,SC,WET,2020,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-HB4,33.2015,-79.2975,1.0,Cfa,18.3,1429.0,LEGACY,2022,2022
+US-HBK,Hubbard Brook Experimental Forest,USA,NH,DBF,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-HBK,43.9397,-71.7181,367.0,Dfb,6.0,1400.0,CCBY4.0,2016,2022
+US-Hn1,Hanford 300 Area,USA,WA,OSH,2015,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Hn1,46.4089,-119.275,118.58,Bsk,12.8,197.0,CCBY4.0,-2147483648,-2147483648
+US-Hn2,Hanford 100H grassland,USA,WA,GRA,2015,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Hn2,46.6889,-119.4641,117.5,Bsk,12.8,197.0,CCBY4.0,2015,2018
+US-Hn3,Hanford 100H sagebrush,USA,WA,OSH,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Hn3,46.6878,-119.4614,120.9,Bsk,12.8,197.0,CCBY4.0,2017,2018
+US-Ho1,Howland Forest (main tower),USA,ME,ENF,1996,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Ho1,45.2041,-68.7402,60.0,Dfb,5.27,1070.0,CCBY4.0,1996,2023
+US-Ho2,Howland Forest (west tower),USA,ME,ENF,1999,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Ho2,45.2091,-68.747,61.0,Dfb,5.13,1064.0,CCBY4.0,1999,2023
+US-Ho3,Howland Forest (harvest site),USA,ME,ENF,2000,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Ho3,45.2072,-68.725,61.0,Dfb,5.31,1072.0,CCBY4.0,2003,2009
+US-HPY,Hawk Property,USA,NJ,WET,2012,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-HPY,40.7692,-74.0853,1.0,Cfa,11.5,1120.0,LEGACY,-2147483648,-2147483648
+US-HRA,Humnoke Farm Rice Field – Field A,USA,AR,CRO,2015,2017,https://ameriflux.lbl.gov/sites/siteinfo/US-HRA,34.5852,-91.7517,,Cfa,16.7,1250.0,CCBY4.0,2015,2017
+US-HRC,Humnoke Farm Rice Field – Field C,USA,AR,CRO,2015,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-HRC,34.5888,-91.7517,,Cfa,16.7,1250.0,CCBY4.0,2015,2017
+US-HRN,Humnoke Carr North Rice Field,USA,AR,CRO,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-HRN,34.5955,-91.7132,61.0,Cfa,16.7,1250.0,LEGACY,-2147483648,-2147483648
+US-HRP,Herring River Phragmites,USA,MA,WET,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-HRP,41.938,-70.0552,0.5,Dfb,9.9,1195.0,CCBY4.0,-2147483648,-2147483648
+US-HRS,Humnoke Carr South Rice Field,USA,AR,CRO,2017,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-HRS,34.5922,-91.7138,61.0,Cfa,16.78,1250.3,LEGACY,-2147483648,-2147483648
+US-Hsm,Hill Slough Marsh,USA,CA,WET,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Hsm,38.2368,-122.0212,1.113,Csa,15.6,450.0,CCBY4.0,2021,2023
+US-HVa,Happy Valley,USA,AK,WET,1994,1995,https://ameriflux.lbl.gov/sites/siteinfo/US-HVa,69.1423,-148.8412,298.0,Dfc,-10.29,217.0,LEGACY,1994,1995
+US-HVs,Happy Valley Wet Sedge Tundra,USA,AK,WET,1995,1995,https://ameriflux.lbl.gov/sites/siteinfo/US-HVs,69.1672,-148.8569,320.0,ET,-10.29,217.0,CCBY4.0,1995,1995
+US-HWB,USDA ARS Pasture Sytems and Watershed Management Research Unit- Hawbecker Site,USA,PA,CVM,2015,2018,https://ameriflux.lbl.gov/sites/siteinfo/US-HWB,40.8608,-77.8488,378.0,Dfb,10.1,1006.35,CCBY4.0,2015,2018
+US-IB1,Fermi National Accelerator Laboratory- Batavia (Agricultural site),USA,IL,CRO,2005,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-IB1,41.8593,-88.2227,226.5,Dfa,9.18,929.23,CCBY4.0,2005,2018
+US-IB2,Fermi National Accelerator Laboratory- Batavia (Prairie site),USA,IL,GRA,2004,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-IB2,41.8406,-88.241,226.5,Dfa,9.04,930.25,CCBY4.0,2004,2018
+US-ICh,Imnavait Creek Watershed Heath Tundra,USA,AK,OSH,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-ICh,68.6068,-149.2958,940.0,ET,-7.4,318.0,CCBY4.0,2007,2021
+US-ICs,Imnavait Creek Watershed Wet Sedge Tundra,USA,AK,WET,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-ICs,68.6058,-149.311,920.0,ET,-7.4,318.0,CCBY4.0,2007,2022
+US-ICt,Imnavait Creek Watershed Tussock Tundra,USA,AK,OSH,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-ICt,68.6063,-149.3041,930.0,ET,-7.4,318.0,CCBY4.0,2007,2022
+US-IL1,Paspalum notatum long rotational grazing,USA,FL,GRA,2013,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-IL1,27.1879,-81.1996,14.7,Cfa,22.5,1300.0,CCBY4.0,-2147483648,-2147483648
+US-INa,INFLUX - Cemetery Turfgrass Tower,USA,IN,URB,2017,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-INa,39.8273,-86.179,,Cfa,,,CCBY4.0,2017,2019
+US-INb,INFLUX - Golf Course,USA,IN,URB,2018,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-INb,39.8706,-86.0024,,Cfa,,,CCBY4.0,2018,2019
+US-INc,INFLUX - Downtown Indianapolis (Site-3),USA,IN,URB,2020,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-INc,39.7833,-86.1652,,Cfa,,,CCBY4.0,2020,2023
+US-INd,INFLUX - Agricultural Site East near Pittsboro,USA,IN,CRO,2017,2018,https://ameriflux.lbl.gov/sites/siteinfo/US-INd,39.8645,-86.5005,,Cfa,,,CCBY4.0,2017,2018
+US-INe,INFLUX - Agricultural Site West near Pittsboro,USA,IN,CRO,2017,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-INe,39.8632,-86.5083,,Cfa,,,CCBY4.0,2017,2019
+US-INf,INFLUX - East 21st St (Site 2),USA,IN,URB,2013,2013,https://ameriflux.lbl.gov/sites/siteinfo/US-INf,39.7978,-86.0183,,Cfa,,,CCBY4.0,2013,2013
+US-INg,INFLUX - Wayne Twp Comm (Site-7),USA,IN,URB,2019,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-INg,39.7739,-86.2724,,Cfa,,,CCBY4.0,2019,2023
+US-INi,INFLUX - Agricultural Site East of Indianapolis (Site-9a),USA,IN,CRO,2019,2022,https://ameriflux.lbl.gov/sites/siteinfo/US-INi,39.8167,-85.7005,,Cfa,,,CCBY4.0,2019,2022
+US-INj,INFLUX - Agricultural Site East of Indianapolis (Site-9b),USA,IN,CRO,2020,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-INj,39.8766,-85.7066,,Cfa,,,CCBY4.0,2020,2023
+US-INn,INFLUX - Agricultural Site West of Indianapolis (Site-14a),USA,IN,CRO,2019,2021,https://ameriflux.lbl.gov/sites/siteinfo/US-INn,39.9468,-86.788,,Cfa,,,CCBY4.0,2019,2021
+US-INp,INFLUX - Agricultural Site West of Indianapolis (Site-14b) ,USA,IN,CRO,2021,2021,https://ameriflux.lbl.gov/sites/siteinfo/US-INp,39.9477,-86.7821,,Cfa,,,CCBY4.0,2020,2021
+US-Ivo,Ivotuk,USA,AK,WET,2003,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Ivo,68.4865,-155.7503,568.0,ET,-8.28,304.0,LEGACY,2003,2016
+US-JLN,Jackson Lane - natural,USA,MD,WET,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-JLN,39.0574,-75.7531,17.0,Cfa,13.1,1120.0,LEGACY,-2147483648,-2147483648
+US-JLR,Jackson Lane - restored,USA,MD,WET,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-JLR,39.0543,-75.7531,17.0,Cfa,13.1,1120.0,LEGACY,-2147483648,-2147483648
+US-Jo1,Jornada Experimental Range Bajada Site,USA,NM,OSH,2010,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Jo1,32.582,-106.635,1188.0,Bwk,14.7,245.1,CCBY4.0,2010,2020
+US-Jo2,Jornada Experimental Range Mixed Shrubland,USA,NM,OSH,2010,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Jo2,32.5849,-106.6032,1469.0,Bwk,17.5,282.3,CCBY4.0,2010,2020
+US-Jo3,Jornada Experimental Range Red Lake Playa,USA,NM,BSV,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Jo3,32.7123,-106.8303,,Bwk,14.7,245.1,CCBY4.0,-2147483648,-2147483648
+US-JRn,WV Jacks Run,USA,WV,GRA,2017,2018,https://ameriflux.lbl.gov/sites/siteinfo/US-JRn,39.6789,-80.1646,384.048,Cfa,13.2,1095.5,CCBY4.0,2017,2019
+US-KCM,KCMP Tall Tower,USA,MN,CRO,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-KCM,44.6886,-93.0728,290.0,Dfa,6.4,879.0,LEGACY,-2147483648,-2147483648
+US-KFB,Konza Prairie LTER (4B),USA,KS,GRA,2006,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-KFB,39.0745,-96.5951,330.0,Cfa,12.77,867.0,CCBY4.0,-2147483648,-2147483648
+US-KFS,Kansas Field Station,USA,KS,GRA,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-KFS,39.0561,-95.1907,310.0,Cfa,12.0,1014.0,CCBY4.0,2007,2019
+US-KGF,Kingman Farm,USA,NH,GRA,2014,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-KGF,43.1717,-70.9259,35.0,Dfb,8.9,1170.0,LEGACY,-2147483648,-2147483648
+US-KL1,KBS Lux Arbor Reserve Corn,USA,MI,CRO,2009,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-KL1,42.4847,-85.4422,264.6,Dfa,9.9,1027.0,CCBY4.0,2009,2021
+US-KL2,KBS Lux Arbor Reserve Switchgrass,USA,MI,GRA,2009,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-KL2,42.4768,-85.4468,258.3,Dfa,9.9,1027.0,CCBY4.0,2009,2021
+US-KL3,KBS Lux Arbor Reserve Prairie,USA,MI,GRA,2009,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-KL3,42.4735,-85.4473,264.7,Dfa,9.9,1027.0,CCBY4.0,2009,2021
+US-KLS,Kansas Land Institute,USA,KS,GRA,2012,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-KLS,38.7745,-97.5684,373.0,Cfa,12.0,812.0,CCBY4.0,2012,2019
+US-KM1,KBS Marshall Farms Corn,USA,MI,CRO,2009,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-KM1,42.4376,-85.3287,258.1,Dfa,9.9,1027.0,CCBY4.0,2009,2021
+US-KM2,KBS Marshall Farms Prairie,USA,MI,GRA,2009,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-KM2,42.4441,-85.3098,259.1,Dfa,9.9,1027.0,CCBY4.0,2009,2021
+US-KM3,KBS Marshall Farms Switchgrass,USA,MI,GRA,2009,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-KM3,42.4464,-85.3105,262.1,Dfa,9.9,1027.0,CCBY4.0,2009,2021
+US-KM4,KBS Marshall Farms Smooth Brome Grass (Ref),USA,MI,GRA,2009,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-KM4,42.4423,-85.3301,246.3,Dfa,9.9,1027.0,CCBY4.0,2009,2021
+US-Kon,Konza Prairie LTER (KNZ),USA,KS,GRA,2006,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Kon,39.0824,-96.5603,417.0,Cfa,12.77,867.0,CCBY4.0,2004,2019
+US-KPL,Lily Lake Fen,USA,AK,WET,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-KPL,60.5382,-150.5061,100.6,Dfc,1.76,375.8,CCBY4.0,2021,2022
+US-KS1,Kennedy Space Center (slash pine),USA,FL,ENF,2002,2006,https://ameriflux.lbl.gov/sites/siteinfo/US-KS1,28.4583,-80.6709,1.0,Cwa,21.9,1266.0,CCBY4.0,2002,2003
+US-KS2,Kennedy Space Center (scrub oak),USA,FL,CSH,2000,2007,https://ameriflux.lbl.gov/sites/siteinfo/US-KS2,28.6086,-80.6715,3.0,Cwa,21.66,1294.0,CCBY4.0,1999,2006
+US-KS3,Kennedy Space Center (salt marsh),USA,FL,WET,2017,2020,https://ameriflux.lbl.gov/sites/siteinfo/US-KS3,28.7084,-80.7427,0.0,Cfa,22.3,1340.0,CCBY4.0,2018,2019
+US-KS4,Kennedy Space Center (Spartina marsh),USA,FL,WET,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-KS4,28.6,-80.7207,0.5,Cwa,22.3,1340.0,LEGACY,2017,2022
+US-KUO,KUOM tower,USA,MN,URB,2006,2009,https://ameriflux.lbl.gov/sites/siteinfo/US-KUO,44.9984,-93.1884,301.0,Dfa,7.9,777.0,CCBY4.0,-2147483648,-2147483648
+US-KUT,KUOM Turfgrass Field,USA,MN,GRA,2005,2009,https://ameriflux.lbl.gov/sites/siteinfo/US-KUT,44.995,-93.1863,301.0,Dfa,7.9,777.0,CCBY4.0,2005,2009
+US-Kyv,Apple Orchard ARS Kearneysville WV,USA,WV,CRO,NA_character_,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Kyv,39.3447,-77.8859,185.0,Cfa,11.78,964.0,CCBY4.0,-2147483648,-2147483648
+US-LA1,Pointe-aux-Chenes Brackish Marsh,USA,LA,WET,2011,2012,https://ameriflux.lbl.gov/sites/siteinfo/US-LA1,29.5013,-90.4449,0.0,Cfa,20.7,1625.0,CCBY4.0,2011,2012
+US-LA2,Salvador WMA Freshwater Marsh,USA,LA,WET,2011,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-LA2,29.8587,-90.2869,0.0,Cfa,20.2,1655.0,CCBY4.0,2011,2022
+US-LA3,Barataria Bay Saline Marsh,USA,LA,WET,2019,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-LA3,29.4936,-89.9153,0.2,Cfa,20.9,1623.0,CCBY4.0,2019,2022
+US-LGr,Lockney Grassland,USA,TX,GRA,2013,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-LGr,34.1377,-101.4787,1026.0,Bsh,15.0,450.0,LEGACY,-2147483648,-2147483648
+US-Lin,Lindcove Orange Orchard,USA,CA,CRO,2009,2010,https://ameriflux.lbl.gov/sites/siteinfo/US-Lin,36.3566,-119.0922,131.0,NA_character_,,,CCBY4.0,2009,2010
+US-LL1,Longleaf Pine - Baker (Mesic site),USA,GA,SAV,2008,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-LL1,31.2792,-84.5329,165.0,Cfa,20.0,1310.0,CCBY4.0,2009,2020
+US-LL2,Longleaf Pine - Dubignion (Intermediate site),USA,GA,SAV,2008,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-LL2,31.201,-84.4449,155.0,Cfa,20.0,1310.0,CCBY4.0,2009,2017
+US-LL3,Longleaf Pine - Red Dirt (Xeric site),USA,GA,SAV,2008,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-LL3,31.2688,-84.4787,159.5,Cfa,20.0,1310.0,CCBY4.0,2009,2017
+US-Los,Lost Creek,USA,WI,WET,2001,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Los,46.0827,-89.9792,480.0,Dfb,4.08,828.0,CCBY4.0,2000,2024
+US-LPH,Little Prospect Hill,USA,MA,DBF,2002,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-LPH,42.5419,-72.185,377.5,Dfb,6.73,1071.0,LEGACY,2002,2005
+US-LS1,San Pedro River Lewis Springs Sacaton Grassland,USA,AZ,GRA,2003,2007,https://ameriflux.lbl.gov/sites/siteinfo/US-LS1,31.5615,-110.1403,1230.0,Bwh,17.0,288.0,CCBY4.0,2002,2007
+US-LS2,San Pedro River Lewis Springs Savanna,USA,AZ,SAV,2003,2007,https://ameriflux.lbl.gov/sites/siteinfo/US-LS2,31.5659,-110.1344,1240.0,Bwh,17.0,288.0,CCBY4.0,2002,2007
+US-LU1,Missouri-Moreau River Basin USDA Certified Organic Farm,USA,MO,CVM,2023,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-LU1,38.5048,-92.2487,187.0,Cfa,13.5,973.0,CCBY4.0,-2147483648,-2147483648
+US-LWW,Little Washita Watershed,USA,OK,GRA,1997,1998,https://ameriflux.lbl.gov/sites/siteinfo/US-LWW,34.9604,-97.9789,365.0,Cfa,16.09,805.12,LEGACY,1997,1998
+US-MAC,MacArthur Agro-Ecology,USA,FL,WET,2013,2015,https://ameriflux.lbl.gov/sites/siteinfo/US-MAC,27.1632,-81.1873,,Cwa,,,LEGACY,-2147483648,-2147483648
+US-MBP,Marcell Bog Lake Peatland,USA,MN,WET,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-MBP,47.5051,-93.4893,416.0,NA_character_,3.4,780.0,CCBY4.0,2009,2022
+US-MC1,"Creston, Montana pivot-irrigated spring wheat",USA,MT,CRO,2015,2015,https://ameriflux.lbl.gov/sites/siteinfo/US-MC1,48.1873,-114.1548,900.0,Dfb,6.25,432.0,CCBY4.0,2015,2015
+US-MC2,"Creston, Montana pivot-irrigated spring wheat 2",USA,MT,CRO,2016,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-MC2,48.1802,-114.2051,900.0,Dfb,6.25,432.0,CCBY4.0,2016,2016
+US-MCP,"Moro Cojo Slough, PG&E Treatment Wetland",USA,CA,WET,2023,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-MCP,36.783,-121.769,0.0,Cfc,10.0,894.0,CCBY4.0,-2147483648,-2147483648
+US-Me1,Metolius - Eyerly burn,USA,OR,ENF,2004,2005,https://ameriflux.lbl.gov/sites/siteinfo/US-Me1,44.5794,-121.5,896.0,Csb,7.88,704.61,CCBY4.0,2004,2005
+US-Me2,Metolius mature ponderosa pine,USA,OR,ENF,2002,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Me2,44.4526,-121.5589,1253.0,Csb,6.28,523.0,CCBY4.0,2002,2023
+US-Me3,Metolius-second young aged pine,USA,OR,ENF,2004,2009,https://ameriflux.lbl.gov/sites/siteinfo/US-Me3,44.3154,-121.6078,1005.0,Csb,7.07,719.0,CCBY4.0,2004,2009
+US-Me4,Metolius-old aged ponderosa pine,USA,OR,ENF,1996,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Me4,44.4992,-121.6224,922.0,Csb,7.61,1038.82,CCBY4.0,1996,2000
+US-Me5,Metolius-first young aged pine,USA,OR,ENF,2000,2002,https://ameriflux.lbl.gov/sites/siteinfo/US-Me5,44.4372,-121.5668,1188.0,Csb,6.47,590.81,CCBY4.0,1999,2002
+US-Me6,Metolius Young Pine Burn,USA,OR,ENF,2010,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Me6,44.3233,-121.6078,998.0,Csb,7.59,494.0,CCBY4.0,2010,2022
+US-Me7,Metolius Low Burn Severity Subcanopy,USA,OR,ENF,2022,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Me7,44.4534,-121.5619,1253.0,Csb,6.28,523.0,CCBY4.0,2022,2023
+US-Men,"Lake Mendota, Center for Limnology Site",USA,WI,WAT,2012,2018,https://ameriflux.lbl.gov/sites/siteinfo/US-Men,43.0772,-89.403,260.0,Dfa,7.94,875.0,CCBY4.0,2012,2018
+US-MFs,Moore Fields,USA,NH,CRO,2014,2018,https://ameriflux.lbl.gov/sites/siteinfo/US-MFs,43.1385,-70.961,20.0,Dfb,8.9,1170.0,LEGACY,-2147483648,-2147483648
+US-MG1,MPG Ranch Rangeland Restoration,USA,MT,GRA,2022,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-MG1,46.6996,-114.0353,1043.0,Dwb,7.06,317.8,CCBY4.0,-2147483648,-2147483648
+US-MH1,"Huntley, Montana irrigated barley site 1",USA,MT,CRO,2015,2015,https://ameriflux.lbl.gov/sites/siteinfo/US-MH1,45.9206,-108.2414,919.6,Bsk,8.9,347.0,CCBY4.0,2015,2015
+US-MH2,"Huntley, Montana irrigated barley site 2",USA,MT,CRO,2016,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-MH2,45.9699,-108.1978,891.0,Bsk,8.9,347.0,CCBY4.0,2016,2016
+US-Mi1,LTAR UCB (Upper Chesapeake Bay) Miscanthus 1,USA,OH,CVM,2015,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-Mi1,41.7727,-80.6313,290.0,Dfb,10.5,1012.7,CCBY4.0,2015,2019
+US-Mi2,LTAR UCB (Upper Chesapeake Bay) Miscanthus 2,USA,OH,CVM,2015,2017,https://ameriflux.lbl.gov/sites/siteinfo/US-Mi2,41.5479,-80.855,280.0,Dfb,10.5,1012.7,CCBY4.0,2015,2017
+US-Mi3,LTAR UCB (Upper Chesapeake Bay) Miscanthus 3,USA,OH,CVM,2015,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-Mi3,41.8222,-80.637,270.0,Dfb,10.5,1012.7,CCBY4.0,2015,2019
+US-Mj1,Montana Judith Basin wheat field,USA,MT,CRO,2013,2014,https://ameriflux.lbl.gov/sites/siteinfo/US-Mj1,46.9948,-109.6137,1285.0,Bsk,6.6,388.0,CCBY4.0,2013,2014
+US-Mj2,Montana Judith Basin summer fallow field,USA,MT,CRO,2014,2014,https://ameriflux.lbl.gov/sites/siteinfo/US-Mj2,46.9957,-109.6295,1277.0,Bsk,6.6,388.0,CCBY4.0,2014,2014
+US-MMS,Morgan Monroe State Forest,USA,IN,DBF,1999,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-MMS,39.3232,-86.4131,275.0,Cfa,10.85,1032.0,CCBY4.0,1999,2023
+US-MN1,"Morris: Corn-Soybean with Cover Crops, Strip Tillage",USA,MN,CRO,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-MN1,45.6168,-96.1269,339.0,Dwb,5.7,684.5,CCBY4.0,-2147483648,-2147483648
+US-MN2,"Morris: Corn-Soybean-Wheat with Cover Crops, Minimal Tillage",USA,MN,CRO,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-MN2,45.627,-96.1271,339.0,Dwb,5.7,684.5,CCBY4.0,-2147483648,-2147483648
+US-MN3,"Morris: Corn-Soybean, Conventional Tillage",USA,MN,CRO,2020,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-MN3,45.6091,-96.1265,339.0,Dwb,5.7,684.5,CCBY4.0,-2147483648,-2147483648
+US-Mo1,LTAR CMRB Field 1 (CMRB ASP),USA,MO,CRO,2015,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Mo1,39.2298,-92.1167,260.0,Cfa,12.0,981.0,CCBY4.0,2015,2023
+US-Mo2,LTAR CMRB Tucker Prairie (CMRB TP),USA,MO,GRA,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Mo2,38.9488,-91.9945,275.0,Cfa,12.0,981.0,CCBY4.0,2018,2023
+US-Mo3,LTAR CMRB Field 3 (CMRB BAU),USA,MO,CRO,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Mo3,39.2322,-92.1493,261.0,Cfa,12.0,981.0,CCBY4.0,2016,2023
+US-MOz,Missouri Ozark Site,USA,MO,DBF,2004,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-MOz,38.7441,-92.2,219.4,Cfa,12.11,986.0,CCBY4.0,2004,2021
+US-Mpj,Mountainair Pinyon-Juniper Woodland,USA,NM,WSA,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Mpj,34.4385,-106.2377,2196.0,Bsk,10.5,385.0,CCBY4.0,2008,2023
+US-MRf,Mary's River (Fir) site,USA,OR,ENF,2006,2011,https://ameriflux.lbl.gov/sites/siteinfo/US-MRf,44.6465,-123.5515,263.0,Csb,10.24,1819.59,LEGACY,2006,2011
+US-MRM,Marsh Resource Meadowlands Mitigation Bank,USA,NJ,WET,2009,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-MRM,40.8164,-74.0435,1.0,Cfa,13.5,1120.0,LEGACY,-2147483648,-2147483648
+US-MSR,Montana Sun River winter wheat ,USA,MT,CRO,2016,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-MSR,47.4758,-111.7207,1110.0,Bsk,7.0,374.0,CCBY4.0,2016,2016
+US-MtB,Mt Bigelow,USA,AZ,ENF,2009,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-MtB,32.416,-110.7256,2573.0,Dwb,9.3,790.0,CCBY4.0,2009,2021
+US-MVF,Montana Vaughn Fallow,USA,MT,CRO,2017,2017,https://ameriflux.lbl.gov/sites/siteinfo/US-MVF,47.6867,-111.4659,1128.0,Bsk,7.0,374.0,CCBY4.0,2017,2017
+US-MVW,Montana Vaughn Wheat,USA,MT,CRO,2017,2017,https://ameriflux.lbl.gov/sites/siteinfo/US-MVW,47.6729,-111.4889,1134.0,Bsk,7.0,374.0,CCBY4.0,2017,2017
+US-MWA,Jackson Agricultural Field,USA,MI,CRO,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-MWA,42.2143,-84.8539,290.0,Dfa,9.11,800.0,LEGACY,2018,2021
+US-MWF,Kellogg Experimental Forest,USA,MI,MF,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-MWF,42.366,-85.3526,256.0,Dfa,9.0,842.0,LEGACY,2018,2021
+US-MWS,Michigan State University Campus Site - Spartans,USA,MI,URB,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-MWS,42.7293,-84.4737,261.0,Dfa,9.1,807.0,LEGACY,2017,2021
+US-MWU,Battle Creek Area Mathematics and Science Center,USA,MI,URB,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-MWU,42.3228,-85.1871,256.0,Dfa,9.0,842.0,LEGACY,2018,2021
+US-MWW,Allegan Wetland,USA,MI,WET,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-MWW,42.6689,-86.0229,209.0,Dfa,10.0,926.0,LEGACY,2018,2021
+US-Myb,Mayberry Wetland,USA,CA,WET,2010,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Myb,38.0499,-121.765,-4.0,Csa,15.9,338.0,CCBY4.0,2010,2023
+US-NC1,NC_Clearcut,USA,NC,ENF,2005,2013,https://ameriflux.lbl.gov/sites/siteinfo/US-NC1,35.8118,-76.7119,5.0,Cfa,16.6,1320.0,CCBY4.0,2005,2012
+US-NC2,NC_Loblolly Plantation,USA,NC,ENF,2005,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-NC2,35.803,-76.6685,5.0,Cfa,16.6,1320.0,CCBY4.0,2005,2023
+US-NC3,NC_Clearcut#3,USA,NC,ENF,2013,2021,https://ameriflux.lbl.gov/sites/siteinfo/US-NC3,35.799,-76.656,5.0,Cfa,16.6,1320.0,CCBY4.0,2013,2021
+US-NC4,NC_AlligatorRiver,USA,NC,WET,2009,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-NC4,35.7879,-75.9038,1.0,Cfa,16.6,1311.0,CCBY4.0,2009,2021
+US-Ne1,Mead - irrigated continuous maize site,USA,NE,CRO,2001,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Ne1,41.1651,-96.4766,361.0,Dfa,10.07,790.37,CCBY4.0,2001,2023
+US-Ne2,Mead - irrigated maize-soybean rotation site,USA,NE,CRO,2001,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Ne2,41.1649,-96.4701,362.0,Dfa,10.08,788.89,CCBY4.0,2001,2023
+US-Ne3,Mead - rainfed maize-soybean rotation site,USA,NE,CRO,2001,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Ne3,41.1797,-96.4397,363.0,Dfa,10.11,783.68,CCBY4.0,2001,2023
+US-NGB,NGEE Arctic Barrow,USA,AK,SNO,2012,2023,https://ameriflux.lbl.gov/sites/siteinfo/US-NGB,71.28,-156.6092,5.273,ET,-11.27,171.0,CCBY4.0,2012,2023
+US-NGC,NGEE Arctic Council,USA,AK,GRA,2017,2023,https://ameriflux.lbl.gov/sites/siteinfo/US-NGC,64.8618,-163.7002,35.0,ET,,,CCBY4.0,2017,2023
+US-NMj,Northern Michigan Jack Pine Stand,USA,MI,ENF,2001,2007,https://ameriflux.lbl.gov/sites/siteinfo/US-NMj,46.6465,-88.5194,394.0,Dfb,4.73,854.01,CCBY4.0,2001,2003
+US-NP1,Business-As-Usual Management (mandanh5),USA,ND,CRO,2015,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-NP1,46.7756,-100.951,593.0,Bsh,5.4,420.0,CCBY4.0,-2147483648,-2147483648
+US-NP2,ASPirational Management (mandani2),USA,ND,CRO,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-NP2,46.7613,-100.9257,590.0,Bsh,5.4,420.0,CCBY4.0,-2147483648,-2147483648
+US-NR1,Niwot Ridge Forest (LTER NWT1),USA,CO,ENF,1998,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-NR1,40.0329,-105.5464,3050.0,Dfc,1.5,800.0,CCBY4.0,1998,2023
+US-NR2,Niwot Ridge Forest (USGS site),USA,CO,ENF,2000,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-NR2,40.0325,-105.5469,3030.0,Dfc,0.43,595.37,LEGACY,-2147483648,-2147483648
+US-NR3,Niwot Ridge Alpine (T-Van West),USA,CO,GRA,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-NR3,40.052,-105.5864,3504.0,ET,-2.2,884.0,CCBY4.0,2007,2022
+US-NR4,Niwot Ridge Alpine (T-Van East),USA,CO,GRA,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-NR4,40.052,-105.5859,3502.0,ET,-2.2,884.0,CCBY4.0,2007,2022
+US-Nrf,Nisqually reference,USA,WA,WET,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Nrf,47.0935,-122.6927,8.0,Csb,10.3,1269.0,CCBY4.0,-2147483648,-2147483648
+US-Nrs,Nisqually restoring,USA,WA,WET,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Nrs,47.0936,-122.7079,8.0,Csb,10.3,1269.0,CCBY4.0,-2147483648,-2147483648
+US-NSW,Newman Seasonal Wetlands,USA,CA,GRA,2022,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-NSW,37.3091,-121.0042,23.5,Csb,17.9,294.0,LEGACY,-2147483648,-2147483648
+US-OF1,Osceola Farm Rice Field - SW,USA,AR,CRO,NA_character_,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-OF1,35.7371,-90.0492,69.8,Cfa,16.3,1277.1,CCBY4.0,-2147483648,-2147483648
+US-OF2,Osceola Farm Rice Field - NW,USA,AR,CRO,NA_character_,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-OF2,35.7406,-90.0489,69.4,Cfa,16.3,1277.1,CCBY4.0,-2147483648,-2147483648
+US-Oho,Oak Openings,USA,OH,DBF,2004,2013,https://ameriflux.lbl.gov/sites/siteinfo/US-Oho,41.5545,-83.8438,230.0,Dfa,10.1,849.0,CCBY4.0,2004,2013
+US-ONA,Florida pine flatwoods,USA,FL,GRA,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-ONA,27.3836,-81.9509,25.0,Cfa,22.3,1268.0,CCBY4.0,2016,2021
+US-OPE,Optimizing Production Inputs for Economic and Environmental Enhancement (OPE3),USA,MD,CRO,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-OPE,39.0293,-76.8457,40.0,Cfa,13.0,1192.0,LEGACY,2022,2022
+US-ORv,Olentangy River Wetland Research Park,USA,OH,WET,2011,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-ORv,40.0201,-83.0183,221.0,Cfa,11.63,1499.1,CCBY4.0,2011,2016
+US-OWC,Old Woman Creek,USA,OH,WET,2015,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-OWC,41.3795,-82.5125,174.0,Dfb,10.7,930.0,CCBY4.0,2015,2023
+US-PAS,"Florida, Paspalum notatum pasture",USA,FL,GRA,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-PAS,27.3944,-81.951,27.1,Cfa,22.3,1268.0,CCBY4.0,2021,2022
+US-PeA,5R Pecan Farm Above Canopy,USA,TX,DBF,2022,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-PeA,31.4123,-106.0788,1092.0,Bwk,14.72,232.66,CCBY4.0,-2147483648,-2147483648
+US-PFa,Park Falls/WLEF,USA,WI,MF,1996,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-PFa,45.9459,-90.2723,470.0,Dfb,4.33,823.0,CCBY4.0,1995,2023
+US-PFb,NW1 Pine-1 CHEESEHEAD 2019,USA,WI,ENF,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFb,45.972,-90.3232,474.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PFc,NW2 Aspen-1 CHEESEHEAD 2019,USA,WI,DBF,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFc,45.9677,-90.3088,473.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PFd,NW3 Tussock-1 CHEESEHEAD 2019,USA,WI,WET,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFd,45.9689,-90.301,473.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PFe,NW4 Lake-1 CHEESEHEAD 2019,USA,WI,WAT,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFe,45.9793,-90.3004,480.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PFf,NW5 Grass-1 CHEESEHEAD 2019,USA,WI,GRA,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFf,45.9458,-90.2944,464.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PFg,NE1 Pine-2 CHEESEHEAD 2019,USA,WI,ENF,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFg,45.9735,-90.2723,475.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PFh,NE2 Pine-3 CHEESEHEAD 2019,USA,WI,ENF,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFh,45.9557,-90.2406,463.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PFi,NE3 Hardwood-1 CHEESEHEAD 2019,USA,WI,DBF,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFi,45.9749,-90.2327,488.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PFj,NE4 Maple-1 CHEESEHEAD 2019,USA,WI,DBF,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFj,45.9619,-90.227,484.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PFk,SW1 Aspen-2 CHEESEHEAD 2019,USA,WI,DBF,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFk,45.9149,-90.3425,476.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PFL,SW2 Aspen-3 CHEESEHEAD 2019,USA,WI,DBF,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFL,45.9409,-90.3177,464.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PFm,SW3 Hardwood-2 CHEESEHEAD 2019,USA,WI,DBF,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFm,45.9207,-90.3099,484.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PFn,SW4 Hardwood-3 CHEESEHEAD 2019,USA,WI,DBF,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFn,45.9392,-90.2823,478.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PFo,SE1 Lake-2 CHEESEHEAD 2019,USA,WI,WAT,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFo,45.9229,-90.2728,476.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PFp,SE2 Hardwood-4 CHEESEHEAD 2019,USA,WI,DBF,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFp,45.9365,-90.2641,497.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PFq,SE3 Aspen-4 CHEESEHEAD 2019,USA,WI,DBF,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFq,45.9271,-90.2475,473.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PFr,SE4 Tussock-2 CHEESEHEAD 2019,USA,WI,WET,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFr,45.9245,-90.2475,490.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PFs,SE5 Aspen-5 CHEESEHEAD 2019,USA,WI,DBF,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFs,45.9381,-90.2382,489.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PFt,SE6 Pine-4 CHEESEHEAD 2019,USA,WI,ENF,2019,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-PFt,45.9197,-90.2288,466.0,Dfb,4.33,823.0,CCBY4.0,2019,2019
+US-PHM,Plum Island High Marsh,USA,MA,WET,2013,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-PHM,42.7423,-70.8301,1.4,Dfa,7.2,1262.0,CCBY4.0,2013,2020
+US-PiU,Pine Upland,USA,FL,WET,2012,2014,https://ameriflux.lbl.gov/sites/siteinfo/US-PiU,26.0004,-80.9261,3.04,Cwa,23.1,1312.0,CCBY4.0,-2147483648,-2147483648
+US-PLM,Plum Island Low Marsh,USA,MA,WET,2015,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-PLM,42.7345,-70.8382,1.0,Dfa,8.7,1262.0,CCBY4.0,-2147483648,-2147483648
+US-PLo,Plum Island Oligohaline Marsh,USA,MA,WET,2022,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-PLo,42.7496,-70.9157,1.4,Dfa,8.7,1262.0,CCBY4.0,-2147483648,-2147483648
+US-Pnp,"Lake Mendota, Picnic Point Site",USA,WI,WAT,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Pnp,43.0896,-89.4158,260.0,Dfa,7.94,875.0,CCBY4.0,2016,2022
+US-Pon,Ponca City,USA,OK,CRO,1997,2001,https://ameriflux.lbl.gov/sites/siteinfo/US-Pon,36.7667,-97.1333,310.0,Cfa,14.94,866.34,LEGACY,1997,2000
+US-Prr,Poker Flat Research Range Black Spruce Forest,USA,AK,ENF,2011,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Prr,65.1237,-147.4876,210.0,Dwc,-2.0,275.0,CCBY4.0,2010,2022
+US-PSH,USSL San Joaquin Valley Pistachio High,USA,CA,DBF,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-PSH,36.2347,-119.9247,70.0,Bsk,15.6,191.0,CCBY4.0,2016,2017
+US-PSL,USSL San Joaquin Valley Pistachio Low,USA,CA,DBF,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-PSL,36.8276,-120.1397,65.0,Bsk,16.7,311.0,CCBY4.0,2016,2017
+US-PVA,PVAMU Research Farm,USA,TX,CRO,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-PVA,30.0958,-95.9695,86.5,Cfa,20.7,1118.0,LEGACY,-2147483648,-2147483648
+US-Px1,"Phoenix, Maryvale Neighborhood Site",USA,AZ,URB,2024,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Px1,33.4839,-112.1426,332.0,Bwh,24.2,183.0,CCBY4.0,-2147483648,-2147483648
+US-Px2,"Phoenix, Encanto Golf Course",USA,AZ,GRA,2024,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Px2,33.4785,-112.098,331.0,Bwh,24.2,203.0,CCBY4.0,-2147483648,-2147483648
+US-Px3,"Phoenix, Desert botanical garden site",USA,AZ,BSV,2024,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Px3,33.4582,-111.9428,396.0,Bwh,24.0,172.0,CCBY4.0,-2147483648,-2147483648
+US-RC1,Cook Agronomy Farm - No Till,USA,WA,CRO,2011,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-RC1,46.7837,-117.0777,807.0,Dsb,9.0,550.0,CCBY4.0,2011,2016
+US-RC2,Cook Agronomy Farm - Conventional Till,USA,WA,CRO,2012,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-RC2,46.7776,-117.0807,799.0,Dsb,9.0,550.0,CCBY4.0,2012,2016
+US-RC3,WSU Lind Dryland Research Station,USA,WA,CRO,2011,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-RC3,46.991,-118.598,,Dsb,10.0,280.0,CCBY4.0,2011,2016
+US-RC4,Moscow Mountain on-farm site,USA,WA,CRO,2012,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-RC4,46.758,-116.949,817.0,Dsb,9.0,680.0,CCBY4.0,2012,2016
+US-RC5,Moses Lake on-farm site,USA,WA,CRO,2013,2015,https://ameriflux.lbl.gov/sites/siteinfo/US-RC5,47.01,-119.248,349.0,Dsb,11.0,230.0,CCBY4.0,2013,2015
+US-RFE,RockyFlats - East site,USA,CO,GRA,2012,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-RFE,39.8771,-105.169,1725.0,Bsk,10.2,468.0,LEGACY,-2147483648,-2147483648
+US-RFW,RockyFlats - West site,USA,CO,GRA,2010,2017,https://ameriflux.lbl.gov/sites/siteinfo/US-RFW,39.8751,-105.2184,1864.0,Bsk,10.2,468.0,LEGACY,-2147483648,-2147483648
+US-RGA,Arkansas Corn Farm,USA,AR,CRO,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-RGA,34.4159,-91.6733,61.0,Csa,16.7,1250.0,CCBY4.0,2021,2023
+US-RGB,Butte County Rice Farm,USA,CA,CRO,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-RGB,39.5782,-121.8579,33.0,Csa,16.0,737.0,CCBY4.0,2021,2023
+US-RGF,Stanislaus County Forage Farm,USA,CA,CRO,2023,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-RGF,37.6995,-121.1369,16.0,Csa,17.2,31.0,CCBY4.0,2023,2024
+US-RGG,Glenn County Rice Farm,USA,CA,CRO,2020,2021,https://ameriflux.lbl.gov/sites/siteinfo/US-RGG,39.5944,-122.0253,36.0,Csa,16.0,610.0,CCBY4.0,-2147483648,-2147483648
+US-RGo,Glenn County Organic Rice Farm,USA,CA,CRO,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-RGo,39.6805,-122.0026,40.0,Csa,16.0,610.0,CCBY4.0,2021,2023
+US-RGW,Desha County Rice Farm,USA,AR,CRO,2022,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-RGW,33.6216,-91.4306,41.0,Csa,16.7,1283.0,CCBY4.0,2022,2023
+US-Rls,RCEW Low Sagebrush,USA,ID,CSH,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Rls,43.1439,-116.7356,1608.0,Bsh,8.4,333.0,CCBY4.0,2014,2022
+US-Rms,RCEW Mountain Big Sagebrush,USA,ID,CSH,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Rms,43.0645,-116.7486,2111.0,Bsh,5.4,800.0,CCBY4.0,2014,2022
+US-Ro1,Rosemount- G21,USA,MN,CRO,2003,2017,https://ameriflux.lbl.gov/sites/siteinfo/US-Ro1,44.7143,-93.0898,290.0,Dfa,6.4,879.0,CCBY4.0,2004,2016
+US-Ro2,Rosemount- C7,USA,MN,CRO,2003,2017,https://ameriflux.lbl.gov/sites/siteinfo/US-Ro2,44.7288,-93.0888,292.0,Dfa,6.4,879.0,CCBY4.0,2008,2016
+US-Ro3,Rosemount- G19,USA,MN,CRO,2003,2010,https://ameriflux.lbl.gov/sites/siteinfo/US-Ro3,44.7217,-93.0893,260.0,Dfa,6.4,879.0,CCBY4.0,2004,2007
+US-Ro4,Rosemount Prairie,USA,MN,GRA,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Ro4,44.6781,-93.0723,274.0,Dfa,6.4,879.0,CCBY4.0,2014,2023
+US-Ro5,Rosemount I18_South,USA,MN,CRO,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Ro5,44.691,-93.0576,283.0,Dfa,6.4,879.0,CCBY4.0,2017,2023
+US-Ro6,Rosemount I18_North,USA,MN,CRO,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Ro6,44.6946,-93.0578,282.0,Dfa,6.4,879.0,CCBY4.0,2017,2023
+US-Rpf,Poker Flat Research Range: Succession from fire scar to deciduous forest,USA,AK,DBF,2008,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Rpf,65.1198,-147.429,497.0,Dwc,-0.8,450.0,CCBY4.0,2008,2023
+US-RRC,Rice Rivers Center Marsh,USA,VA,WET,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-RRC,37.3344,-77.2065,0.1,Dfa,15.4,1117.0,CCBY4.0,2022,2023
+US-Rwe,RCEW Reynolds Mountain East,USA,ID,CSH,2003,2007,https://ameriflux.lbl.gov/sites/siteinfo/US-Rwe,43.0653,-116.7591,2098.0,Bsh,5.4,800.0,CCBY4.0,2003,2007
+US-Rwf,RCEW Upper Sheep Prescibed Fire,USA,ID,CSH,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Rwf,43.1207,-116.7231,1878.0,Bsh,6.5,505.0,CCBY4.0,2014,2022
+US-Rws,Reynolds Creek Wyoming big sagebrush,USA,ID,OSH,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Rws,43.1675,-116.7132,1425.0,Bsk,8.9,290.0,CCBY4.0,2014,2022
+US-Sag,Sag River,USA,AK,WET,1996,1996,https://ameriflux.lbl.gov/sites/siteinfo/US-Sag,69.5131,-148.5676,170.0,Dfc,-8.0,121.0,CCBY4.0,1996,1996
+US-SB1,Sweet Briar Land-Atmosphere Research Station,USA,VA,ENF,2015,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SB1,37.5734,-79.0848,242.0,Cfa,12.7,1016.0,LEGACY,-2147483648,-2147483648
+US-SB2,Sweet Briar Grass,USA,VA,CRO,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SB2,37.5607,-79.0883,240.0,Cfa,12.7,1016.0,LEGACY,-2147483648,-2147483648
+US-SB3,Sweet Briar Clearcut,USA,VA,BSV,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SB3,37.5752,-79.0872,253.0,Cfa,12.7,1016.0,LEGACY,-2147483648,-2147483648
+US-SCc,Southern California Climate Gradient - Desert Chaparral,USA,CA,OSH,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SCc,33.6094,-116.4505,1280.0,NA_character_,,,LEGACY,-2147483648,-2147483648
+US-SCd,Southern California Climate Gradient - Sonoran Desert,USA,CA,BSV,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SCd,33.6518,-116.3721,275.0,NA_character_,,,LEGACY,2006,2014
+US-SCf,Southern California Climate Gradient - Oak/Pine Forest,USA,CA,MF,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SCf,33.8079,-116.7717,1770.0,NA_character_,,,LEGACY,2006,2015
+US-SCg,Southern California Climate Gradient - Grassland,USA,CA,GRA,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SCg,33.7365,-117.6946,465.0,NA_character_,,,LEGACY,2006,2016
+US-SCs,Southern California Climate Gradient - Coastal Sage,USA,CA,OSH,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SCs,33.7343,-117.6959,470.0,NA_character_,,,LEGACY,2006,2016
+US-SCw,Southern California Climate Gradient - Pinyon/Juniper Woodland,USA,CA,OSH,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SCw,33.6047,-116.4527,1281.0,NA_character_,,,LEGACY,2006,2016
+US-SdH,Nebraska SandHills Dry Valley,USA,NE,GRA,2004,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SdH,42.0693,-101.4072,1081.0,Dsb,,,CCBY4.0,2004,2009
+US-SDU,South Denver Urban Tower,USA,CO,URB,2010,2014,https://ameriflux.lbl.gov/sites/siteinfo/US-SDU,39.6594,-105.0127,1618.0,Bsk,10.04,406.0,LEGACY,-2147483648,-2147483648
+US-Seg,Sevilleta grassland,USA,NM,GRA,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Seg,34.3623,-106.702,1596.0,Bsk,13.667,273.304,CCBY4.0,2007,2023
+US-Ses,Sevilleta shrubland,USA,NM,OSH,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Ses,34.3349,-106.7442,1604.0,Bsk,13.722,275.082,CCBY4.0,2007,2023
+US-SFP,Sioux Falls Portable,USA,SD,CRO,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SFP,43.2408,-96.902,386.0,NA_character_,,,LEGACY,2007,2009
+US-SHC,Sagehen Creek Field Station,USA,CA,ENF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SHC,39.4315,-120.2398,1934.0,Dsb,5.3,827.0,LEGACY,-2147483648,-2147483648
+US-Shd,Shidler- Oklahoma,USA,OK,GRA,1997,2001,https://ameriflux.lbl.gov/sites/siteinfo/US-Shd,36.9333,-96.6833,346.0,Cfa,14.32,897.91,LEGACY,1997,2000
+US-SHS,Secaucus High School Site,USA,NJ,WET,2011,2013,https://ameriflux.lbl.gov/sites/siteinfo/US-SHS,40.8052,-74.0457,1.0,Cfa,13.5,1120.0,LEGACY,-2147483648,-2147483648
+US-Si1,Staten Island Fallow,USA,CA,CRO,2012,2013,https://ameriflux.lbl.gov/sites/siteinfo/US-Si1,38.1747,-121.5047,-3.8,Csb,15.0,328.1,LEGACY,-2147483648,-2147483648
+US-Si2,Staten Island Flooded,USA,CA,CRO,2011,2013,https://ameriflux.lbl.gov/sites/siteinfo/US-Si2,38.1758,-121.5167,-3.8,Csb,15.0,328.1,LEGACY,-2147483648,-2147483648
+US-SJ1,San Joaquin (Freshwater Marsh Tower 1),USA,CA,WET,1999,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SJ1,33.6623,-117.8514,3.0,NA_character_,,,LEGACY,-2147483648,-2147483648
+US-SJ2,San Joaquin (Freshwater Marsh Tower 2),USA,CA,WET,2003,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SJ2,33.6596,-117.855,3.0,NA_character_,,,LEGACY,-2147483648,-2147483648
+US-Skr,Shark River Slough (Tower SRS-6)  Everglades,USA,FL,EBF,2004,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Skr,25.3629,-81.0776,0.0,Cwa,23.77,1259.0,LEGACY,2004,2011
+US-Slt,Silas Little- New Jersey,USA,NJ,DBF,2004,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Slt,39.9138,-74.596,30.0,Dfa,11.04,1138.0,CCBY4.0,2005,2014
+US-SM1,Texas SmartFarm Project,USA,TX,CRO,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SM1,36.3934,-100.9537,897.0,Bsk,12.9,559.0,LEGACY,-2147483648,-2147483648
+US-Snd,Sherman Island,USA,CA,GRA,2007,2015,https://ameriflux.lbl.gov/sites/siteinfo/US-Snd,38.0366,-121.754,-5.0,Csa,15.6,358.0,CCBY4.0,2007,2014
+US-Sne,Sherman Island Restored Wetland,USA,CA,GRA,2016,2021,https://ameriflux.lbl.gov/sites/siteinfo/US-Sne,38.0369,-121.7547,-5.0,Csa,16.09,311.0,CCBY4.0,2016,2020
+US-Snf,Sherman Barn,USA,CA,GRA,2018,2020,https://ameriflux.lbl.gov/sites/siteinfo/US-Snf,38.0402,-121.7272,-4.0,Csa,,,CCBY4.0,2018,2020
+US-SO2,Sky Oaks- Old Stand,USA,CA,CSH,1997,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SO2,33.3738,-116.6228,1394.0,Csa,13.63,553.0,LEGACY,1997,2006
+US-SO3,Sky Oaks- Young Stand,USA,CA,CSH,1997,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SO3,33.3771,-116.6226,1429.0,Csa,13.29,576.0,LEGACY,1997,2006
+US-SO4,Sky Oaks- New Stand,USA,CA,CSH,2004,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SO4,33.3845,-116.6406,1429.0,Csa,,,LEGACY,2004,2006
+US-SP1,Slashpine-Austin Cary- 65yrs nat regen,USA,FL,ENF,2000,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SP1,29.7381,-82.2188,50.0,Cfa,20.06,1309.77,CCBY4.0,2000,2020
+US-SP2,"Slashpine-Mize-clearcut-3yr,regen",USA,FL,ENF,1999,2009,https://ameriflux.lbl.gov/sites/siteinfo/US-SP2,29.7648,-82.2448,50.0,Cfa,20.07,1314.41,CCBY4.0,1999,2008
+US-SP3,Slashpine-Donaldson-mid-rot- 12yrs,USA,FL,ENF,1999,2013,https://ameriflux.lbl.gov/sites/siteinfo/US-SP3,29.7548,-82.1633,50.0,Cfa,20.25,1312.35,CCBY4.0,1999,2010
+US-SP4,Slashpine-Rayonier-mid-rot- 12yrs,USA,FL,ENF,1998,1998,https://ameriflux.lbl.gov/sites/siteinfo/US-SP4,29.8028,-82.2031,47.0,Cfa,20.0,1319.63,CCBY4.0,1998,1998
+US-SRC,Santa Rita Creosote,USA,AZ,OSH,2008,2018,https://ameriflux.lbl.gov/sites/siteinfo/US-SRC,31.9083,-110.8395,950.0,Bwh,22.0,330.0,CCBY4.0,2008,2014
+US-SRG,Santa Rita Grassland,USA,AZ,GRA,2008,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SRG,31.7894,-110.8277,1291.0,Bsk,17.0,420.0,CCBY4.0,2008,2023
+US-SRM,Santa Rita Mesquite,USA,AZ,WSA,2004,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SRM,31.8214,-110.8661,1120.0,Bsk,17.92,380.0,CCBY4.0,2004,2023
+US-Srr,Suisun marsh - Rush Ranch,USA,CA,WET,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Srr,38.2006,-122.0264,8.0,Csa,15.1,326.0,CCBY4.0,2014,2017
+US-SRS,Santa Rita Savanna,USA,AZ,WSA,2011,2019,https://ameriflux.lbl.gov/sites/siteinfo/US-SRS,31.8173,-110.8508,1169.0,Bsk,19.4,388.0,CCBY4.0,2011,2018
+US-SSH,Susquehanna Shale Hills Critical Zone Observatory,USA,PA,DBF,2009,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SSH,40.6658,-77.9041,310.0,Dfb,9.5,1050.0,CCBY4.0,2016,2021
+US-Sta,Saratoga,USA,WY,OSH,2006,2009,https://ameriflux.lbl.gov/sites/siteinfo/US-Sta,41.3966,-106.8024,2069.0,Bsh,5.1,,CCBY4.0,2005,2009
+US-StJ,St Jones Reserve,USA,DE,WET,2015,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-StJ,39.0882,-75.4372,6.7,Cfa,13.5,1121.0,CCBY4.0,2014,2017
+US-StS,Strawberry Swamp,USA,SC,WET,2015,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-StS,33.3302,-79.2492,0.0,Cfa,18.1,1300.0,CCBY4.0,-2147483648,-2147483648
+US-SuM,Maui Sugarcane Middle,USA,HI,CRO,2013,2013,https://ameriflux.lbl.gov/sites/siteinfo/US-SuM,20.7981,-156.454,21.0,Aw,24.1,287.0,CCBY4.0,2013,2014
+US-SuS,Maui Sugarcane Lee/Sheltered,USA,HI,CRO,2011,2013,https://ameriflux.lbl.gov/sites/siteinfo/US-SuS,20.7847,-156.4039,203.0,Aw,24.4,334.0,CCBY4.0,2011,2014
+US-SuW,Maui Sugarcane Windy,USA,HI,CRO,2011,2013,https://ameriflux.lbl.gov/sites/siteinfo/US-SuW,20.8246,-156.4913,44.0,Aw,24.4,366.0,CCBY4.0,2011,2013
+US-Syv,Sylvania Wilderness Area,USA,MI,MF,2001,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Syv,46.242,-89.3477,540.0,Dfb,3.81,826.0,CCBY4.0,2001,2023
+US-SZ1,"St. John, WA On-farm site Zone 1",USA,WA,CRO,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SZ1,47.1245,-117.5306,657.0,Csb,9.5,437.4,LEGACY,-2147483648,-2147483648
+US-SZ2,"St. John, WA On-farm site Zone 2",USA,WA,CRO,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SZ2,47.1226,-117.5271,664.0,Csb,9.5,437.4,LEGACY,-2147483648,-2147483648
+US-SZ3,"St. John, WA On-farm site Zone 3",USA,WA,CRO,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-SZ3,47.1261,-117.5267,687.0,Csb,9.5,437.4,LEGACY,-2147483648,-2147483648
+US-TaS,Taylor Slough/Panhandle,USA,FL,WET,2016,2021,https://ameriflux.lbl.gov/sites/siteinfo/US-TaS,25.1908,-80.6391,3.0,Cwa,23.7,986.8,CCBY4.0,2016,2023
+US-TCS,Tall Cypress Swamp,USA,FL,WET,2012,2020,https://ameriflux.lbl.gov/sites/siteinfo/US-TCS,25.8221,-81.1017,1.2,Cfa,23.6,1312.0,CCBY4.0,-2147483648,-2147483648
+US-TEF,Tenderfoot Creek Experimental Forest,USA,MT,ENF,2010,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-TEF,46.9522,-110.8851,2280.0,Dfc,0.0,880.0,CCBY4.0,2010,2012
+US-TFF,Thompson Farm Forest,USA,NH,MF,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-TFF,43.1084,-70.9523,23.3,Dfb,8.9,1170.0,LEGACY,-2147483648,-2147483648
+US-Ton,Tonzi Ranch,USA,CA,WSA,2001,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Ton,38.4309,-120.966,177.0,Csa,15.8,559.0,CCBY4.0,2001,2023
+US-TrB,Trout Bog,USA,WI,WAT,2020,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-TrB,46.0412,-89.6862,499.0,Dfb,3.8,787.0,CCBY4.0,2020,2020
+US-TrS,Trout Lake Area South Sparkling Bog,USA,WI,WAT,2020,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-TrS,46.0034,-89.7053,495.0,Dfb,3.8,787.0,CCBY4.0,2020,2020
+US-Tur,Turner Ranch,USA,MT,GRA,2017,2018,https://ameriflux.lbl.gov/sites/siteinfo/US-Tur,45.5571,-111.2286,1530.0,Dfb,6.67,670.0,CCBY4.0,2017,2018
+US-Tw1,Twitchell Wetland West Pond,USA,CA,WET,2012,2023,https://ameriflux.lbl.gov/sites/siteinfo/US-Tw1,38.1074,-121.6469,-5.0,Csa,15.5,421.0,CCBY4.0,2011,2022
+US-Tw2,Twitchell Corn,USA,CA,CRO,2012,2013,https://ameriflux.lbl.gov/sites/siteinfo/US-Tw2,38.0969,-121.6365,-5.0,Csa,15.5,421.0,CCBY4.0,2012,2013
+US-Tw3,Twitchell Alfalfa,USA,CA,CRO,2013,2018,https://ameriflux.lbl.gov/sites/siteinfo/US-Tw3,38.1152,-121.6469,-4.0,Csa,15.6,421.0,CCBY4.0,2013,2018
+US-Tw4,Twitchell East End Wetland,USA,CA,WET,2013,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Tw4,38.1027,-121.6413,-5.0,Csa,15.6,421.0,CCBY4.0,2013,2022
+US-Tw5,East Pond Wetland,USA,CA,WET,2018,2020,https://ameriflux.lbl.gov/sites/siteinfo/US-Tw5,38.1072,-121.6426,-5.0,Csa,15.5,421.0,CCBY4.0,2018,2020
+US-Twt,Twitchell Island,USA,CA,CRO,2009,2017,https://ameriflux.lbl.gov/sites/siteinfo/US-Twt,38.1087,-121.6531,-7.0,Csa,15.6,421.0,CCBY4.0,2009,2017
+US-Tx1,Stiles Farm Prairie,USA,TX,GRA,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Tx1,30.6176,-97.2938,157.0,Cfa,25.6,889.0,LEGACY,-2147483648,-2147483648
+US-Tx2,Riesel Farm Native Prairie,USA,TX,GRA,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Tx2,31.4802,-96.8827,162.0,Cfa,18.95,914.0,LEGACY,-2147483648,-2147483648
+US-Tx3,Riesel Farm Aspirational Agriculture,USA,TX,CRO,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Tx3,31.4777,-96.8883,167.0,Cfa,18.95,914.0,LEGACY,-2147483648,-2147483648
+US-Tx4,Riesel Farm Traditional Agriculture,USA,TX,CRO,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Tx4,31.4693,-96.8865,173.0,Cfa,18.95,914.0,LEGACY,-2147483648,-2147483648
+US-Tx5,Texas A&M University Farm,USA,TX,CVM,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Tx5,30.5328,-96.4252,68.0,Cfa,19.95,991.0,LEGACY,-2147483648,-2147483648
+US-Tx6,La Copita Grassland - Savanna,USA,TX,GRA,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Tx6,27.6666,-98.2089,82.0,Cfa,22.2,716.0,LEGACY,-2147483648,-2147483648
+US-Tx7,La Copita Shrubland - Savanna,USA,TX,CSH,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Tx7,27.665,-98.2007,82.0,Cfa,22.2,716.0,LEGACY,-2147483648,-2147483648
+US-Tx8,Danciger Lowland Hardwood Forest,USA,TX,DBF,2019,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Tx8,29.1659,-95.829,16.0,Cfa,20.6,1143.0,LEGACY,-2147483648,-2147483648
+US-Tx9,Sargent Unit Salt Marsh,USA,TX,WET,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Tx9,28.7805,-95.6144,0.0,Cfa,21.15,1245.0,LEGACY,-2147483648,-2147483648
+US-Uaf,"University of Alaska, Fairbanks",USA,AK,ENF,2002,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Uaf,64.8663,-147.8555,155.0,Dwc,-2.9,263.0,CCBY4.0,2003,2023
+US-UC1,LTAR UCB (Upper Chesapeake Bay) EC1,USA,PA,CVM,2019,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-UC1,40.7536,-78.0056,390.0,Dfb,10.1,1006.35,CCBY4.0,2019,2023
+US-UC2,LTAR UCB (Upper Chesapeake Bay) EC2,USA,PA,CVM,2019,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-UC2,40.7559,-77.9998,396.0,Dfb,10.1,1006.35,CCBY4.0,2019,2023
+US-UG1,East River Riparian,USA,CO,OSH,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-UG1,38.923,-106.9524,2755.0,Dsc,8.0,750.0,CCBY4.0,-2147483648,-2147483648
+US-UiA,University of Illinois Switchgrass,USA,IL,CRO,2008,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-UiA,40.0646,-88.1961,224.0,Dfa,10.9,1051.0,CCBY4.0,2008,2016
+US-UiB,University of Illinois Miscanthus,USA,IL,CRO,2008,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-UiB,40.0628,-88.1984,224.0,Dfa,10.9,1051.0,CCBY4.0,2008,2021
+US-UiC,University of Illinois Maize-Soy,USA,IL,CRO,2008,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-UiC,40.0628,-88.1961,224.0,Dfa,10.9,1051.0,CCBY4.0,2008,2016
+US-UiD,University of Illinois Restored Native Prairie,USA,IL,GRA,2008,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-UiD,40.0646,-88.1985,224.0,NA_character_,10.9,1051.0,CCBY4.0,2008,2016
+US-UiE,University of Illinois Sorghum-Soy,USA,IL,CRO,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-UiE,40.0629,-88.2033,217.0,Dfa,11.2,1021.0,CCBY4.0,-2147483648,-2147483648
+US-UiF,University of Illinois Miscanthus 2,USA,IL,CRO,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-UiF,40.0665,-88.2015,220.0,Dfa,11.2,1021.0,CCBY4.0,-2147483648,-2147483648
+US-UiG,University of Illinois Maize-Soy 2,USA,IL,CRO,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-UiG,40.0629,-88.2009,220.0,Dfa,11.2,1021.0,CCBY4.0,-2147483648,-2147483648
+US-ULM,ULM Flux Tower,USA,LA,DBF,2013,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-ULM,32.457,-91.9743,20.0,Cfa,18.77,1356.36,LEGACY,-2147483648,-2147483648
+US-UM3,Douglas Lake,USA,OH,WAT,2013,2014,https://ameriflux.lbl.gov/sites/siteinfo/US-UM3,45.5686,-84.6707,234.0,Dfb,5.83,803.0,CCBY4.0,2013,2014
+US-UMB,Univ. of Mich. Biological Station,USA,MI,DBF,1999,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-UMB,45.5598,-84.7138,234.0,Dfb,5.83,803.0,CCBY4.0,2000,2023
+US-UMd,UMBS Disturbance,USA,MI,DBF,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-UMd,45.5625,-84.6975,239.0,Dfb,5.83,803.0,CCBY4.0,2007,2023
+US-Upa,Upad,USA,AK,WET,1993,1994,https://ameriflux.lbl.gov/sites/siteinfo/US-Upa,70.2815,-148.8848,5.0,Dsc,-13.57,123.68,LEGACY,1994,1994
+US-UTB,UFLUX Bonneville Salt Flats,USA,UT,BSV,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-UTB,40.7848,-113.8299,1287.0,Bwk,10.6,138.59,CCBY4.0,2021,2024
+US-UTD,UFLUX Dugout Ranch,USA,UT,CRO,2023,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-UTD,38.1038,-109.5952,1580.0,Bwk,12.0,215.65,CCBY4.0,-2147483648,-2147483648
+US-UTM,UFLUX Matheson,USA,UT,WET,2022,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-UTM,38.5879,-109.5775,1207.0,Bsk,13.0,240.03,CCBY4.0,-2147483648,-2147483648
+US-UTN,UFLUX Nephi,USA,UT,CRO,2022,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-UTN,39.6896,-111.8814,1529.0,Dfa,10.2,396.0,CCBY4.0,2023,2023
+US-UTV,UFLUX Desert View,USA,UT,CRO,2023,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-UTV,40.1266,-109.9546,1539.0,Bsk,16.7,177.0,CCBY4.0,-2147483648,-2147483648
+US-UTW,UFLUX Wellington,USA,UT,CRO,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-UTW,39.4453,-110.7288,1682.0,Dfa,9.6,225.22,CCBY4.0,-2147483648,-2147483648
+US-Var,Vaira Ranch- Ione,USA,CA,GRA,2000,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Var,38.4133,-120.9508,129.0,Csa,15.8,559.0,CCBY4.0,2000,2023
+US-Vcm,Valles Caldera Mixed Conifer,USA,NM,ENF,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Vcm,35.8884,-106.5321,3030.0,Dfb,6.4,646.0,CCBY4.0,2007,2023
+US-Vcp,Valles Caldera Ponderosa Pine,USA,NM,ENF,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Vcp,35.8642,-106.5967,2500.0,Dfb,9.8,550.0,CCBY4.0,2007,2023
+US-Vcs,Valles Caldera Sulphur Springs Mixed Conifer,USA,NM,ENF,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Vcs,35.9193,-106.6142,2752.0,Dfb,4.6,550.93,CCBY4.0,2016,2023
+US-VFP,Virginia Coast Reserve Fowling Point,USA,VA,WET,2014,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-VFP,37.4111,-75.8333,1.0,Cfa,14.05,1023.3,LEGACY,-2147483648,-2147483648
+US-WBW,Walker Branch Watershed,USA,TN,DBF,1995,1999,https://ameriflux.lbl.gov/sites/siteinfo/US-WBW,35.9588,-84.2874,283.0,Cfa,13.71,1372.05,LEGACY,1995,2007
+US-WCr,Willow Creek,USA,WI,DBF,1999,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-WCr,45.8059,-90.0799,520.0,Dfb,4.02,787.0,CCBY4.0,1998,2023
+US-Wdn,Walden,USA,CO,OSH,2006,2008,https://ameriflux.lbl.gov/sites/siteinfo/US-Wdn,40.7838,-106.2618,2469.0,Bsh,3.3,,LEGACY,2006,2008
+US-WEP,West Edge Parking Lot,USA,NH,URB,2014,2017,https://ameriflux.lbl.gov/sites/siteinfo/US-WEP,43.1421,-70.9543,27.0,Dfb,8.9,1170.0,LEGACY,-2147483648,-2147483648
+US-Wgr,Willamette Grass,USA,OR,CRO,2015,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-Wgr,45.1129,-122.656,52.0,Csb,11.58,1194.0,LEGACY,2015,2015
+US-Whs,Walnut Gulch Lucky Hills Shrub,USA,AZ,OSH,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Whs,31.7438,-110.0522,1370.0,Bsk,17.6,320.0,CCBY4.0,2007,2023
+US-Wi0,Young red pine (YRP),USA,WI,ENF,2002,2002,https://ameriflux.lbl.gov/sites/siteinfo/US-Wi0,46.6188,-91.0814,349.0,Dfb,,,CCBY4.0,2002,2002
+US-Wi1,Intermediate hardwood (IHW),USA,WI,DBF,2003,2003,https://ameriflux.lbl.gov/sites/siteinfo/US-Wi1,46.7305,-91.2329,352.0,Dfb,,,CCBY4.0,2003,2003
+US-Wi2,Intermediate red pine (IRP),USA,WI,ENF,2003,2003,https://ameriflux.lbl.gov/sites/siteinfo/US-Wi2,46.6869,-91.1528,395.0,Dfb,,,CCBY4.0,2003,2003
+US-Wi3,Mature hardwood (MHW),USA,WI,DBF,2002,2004,https://ameriflux.lbl.gov/sites/siteinfo/US-Wi3,46.6347,-91.0987,411.0,Dfb,,,CCBY4.0,2002,2004
+US-Wi4,Mature red pine (MRP),USA,WI,ENF,2002,2005,https://ameriflux.lbl.gov/sites/siteinfo/US-Wi4,46.7393,-91.1663,352.0,Dfb,,,CCBY4.0,2002,2005
+US-Wi5,Mixed young jack pine (MYJP),USA,WI,ENF,2004,2004,https://ameriflux.lbl.gov/sites/siteinfo/US-Wi5,46.6531,-91.0858,353.0,Dfb,,,CCBY4.0,2004,2004
+US-Wi6,Pine barrens #1 (PB1),USA,WI,OSH,2002,2002,https://ameriflux.lbl.gov/sites/siteinfo/US-Wi6,46.6249,-91.2982,371.0,Dfb,,,CCBY4.0,2002,2003
+US-Wi7,Red pine clearcut (RPCC),USA,WI,OSH,2005,2005,https://ameriflux.lbl.gov/sites/siteinfo/US-Wi7,46.6491,-91.0693,335.0,Dfb,,,CCBY4.0,2005,2005
+US-Wi8,Young hardwood clearcut (YHW),USA,WI,DBF,2002,2002,https://ameriflux.lbl.gov/sites/siteinfo/US-Wi8,46.7223,-91.2524,348.0,Dfb,,,CCBY4.0,2002,2002
+US-Wi9,Young Jack pine (YJP),USA,WI,ENF,2004,2005,https://ameriflux.lbl.gov/sites/siteinfo/US-Wi9,46.7385,-91.0746,350.0,Dfb,,,CCBY4.0,2004,2005
+US-Wjs,Willard Juniper Savannah,USA,NM,SAV,2007,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Wjs,34.4255,-105.8615,1931.0,Bsk,15.2,361.0,CCBY4.0,2007,2023
+US-Wkg,Walnut Gulch Kendall Grasslands,USA,AZ,GRA,2004,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-Wkg,31.7365,-109.9419,1531.0,Bsk,15.64,407.0,CCBY4.0,2004,2023
+US-Wlr,Walnut River Watershed (Smileyburg),USA,KS,GRA,2001,2004,https://ameriflux.lbl.gov/sites/siteinfo/US-Wlr,37.5208,-96.855,408.0,Cfa,13.52,881.0,CCBY4.0,2001,2004
+US-Wpp,Willamette Poplar,USA,OR,DBF,2015,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-Wpp,44.1369,-123.1824,111.0,Csb,11.39,1293.0,LEGACY,2015,2015
+US-WPT,Winous Point North Marsh,USA,OH,WET,2011,2013,https://ameriflux.lbl.gov/sites/siteinfo/US-WPT,41.4646,-82.9962,175.0,Dfa,10.1,849.0,CCBY4.0,2011,2013
+US-Wrc,Wind River Crane Site,USA,WA,ENF,1998,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-Wrc,45.8205,-121.9519,371.0,Csb,8.8,2452.0,CCBY4.0,1998,2015
+US-WT1,"Kress, TX no-till cotton and grain sorghum production",USA,TX,CRO,2023,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-WT1,34.3674,-101.8154,1058.0,Bsk,14.4,482.0,CCBY4.0,-2147483648,-2147483648
+US-Wwt,Willamette Wheat,USA,OR,CRO,2014,2016,https://ameriflux.lbl.gov/sites/siteinfo/US-Wwt,45.1089,-122.6664,52.0,Csb,11.58,1194.0,LEGACY,2014,2015
+US-xAB,NEON Abby Road (ABBY),USA,WA,ENF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xAB,45.7624,-122.3303,363.0,Csb,10.0,2450.59,CCBY4.0,2017,2022
+US-xAE,NEON Klemme Range Research Station (OAES),USA,OK,GRA,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xAE,35.4106,-99.0588,516.0,Cfa,15.5,778.85,CCBY4.0,2017,2022
+US-xBA,NEON Barrow Environmental Observatory (BARR),USA,AK,WET,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xBA,71.2824,-156.6194,6.0,ET,-12.0,110.0,CCBY4.0,2017,2022
+US-xBL,NEON Blandy Experimental Farm (BLAN),USA,VA,DBF,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xBL,39.0603,-78.0716,183.0,Cfa,12.1,982.55,CCBY4.0,2017,2022
+US-xBN,NEON Caribou Creek - Poker Flats Watershed (BONA),USA,AK,ENF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xBN,65.154,-147.5026,263.0,Dwc,-2.0,275.0,CCBY4.0,2017,2022
+US-xBR,NEON Bartlett Experimental Forest (BART),USA,NH,DBF,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xBR,44.0639,-71.2873,232.0,Dfb,5.6,1246.0,CCBY4.0,2017,2022
+US-xCL,NEON LBJ National Grassland (CLBJ),USA,TX,GRA,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xCL,33.4012,-97.57,259.0,Cfa,17.5,925.61,CCBY4.0,2017,2022
+US-xCP,NEON Central Plains Experimental Range (CPER),USA,CO,GRA,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xCP,40.8155,-104.7456,1654.0,Bsk,8.6,320.0,CCBY4.0,2016,2022
+US-xDC,NEON Dakota Coteau Field School (DCFS),USA,ND,GRA,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xDC,47.1617,-99.1066,559.0,Dfb,4.9,489.74,CCBY4.0,2017,2022
+US-xDJ,NEON Delta Junction (DEJU),USA,AK,ENF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xDJ,63.8811,-145.7514,529.0,Dfc,-2.0,300.0,CCBY4.0,2017,2022
+US-xDL,NEON Dead Lake (DELA),USA,AL,MF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xDL,32.5417,-87.8039,22.0,Cfa,17.6,1372.0,CCBY4.0,2017,2022
+US-xDS,NEON Disney Wilderness Preserve (DSNY),USA,FL,CVM,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xDS,28.125,-81.4362,15.0,Cfa,22.5,1216.09,CCBY4.0,2017,2022
+US-xGR,"NEON Great Smoky Mountains National Park, Twin Creeks (GRSM)",USA,TN,DBF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xGR,35.689,-83.5019,579.0,Cfa,13.1,1375.0,CCBY4.0,2017,2022
+US-xHA,NEON Harvard Forest (HARV),USA,MA,DBF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xHA,42.5369,-72.1727,351.0,Dfb,6.62,1071.0,CCBY4.0,2017,2022
+US-xHE,NEON Healy (HEAL),USA,AK,OSH,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xHE,63.8757,-149.2133,705.0,ET,-4.0,320.0,CCBY4.0,2017,2022
+US-xJE,NEON Jones Ecological Research Center (JERC),USA,GA,ENF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xJE,31.1948,-84.4686,44.0,Cfa,19.2,1307.97,CCBY4.0,2017,2022
+US-xJR,NEON Jornada LTER (JORN),USA,NM,OSH,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xJR,32.5907,-106.8425,1329.0,Bsk,15.7,271.33,CCBY4.0,2017,2022
+US-xKA,NEON Konza Prairie Biological Station - Relocatable (KONA),USA,KS,GRA,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xKA,39.1104,-96.6129,1329.0,Cfa,12.7,850.63,CCBY4.0,2017,2022
+US-xKZ,NEON Konza Prairie Biological Station (KONZ),USA,KS,GRA,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xKZ,39.1008,-96.5631,381.0,Cfa,12.4,870.38,CCBY4.0,2017,2022
+US-xLE,NEON Lenoir Landing (LENO),USA,AL,DBF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xLE,31.8539,-88.1612,20.0,Cfa,18.1,1386.24,CCBY4.0,2017,2022
+US-xMB,NEON Moab (MOAB),USA,UT,OSH,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xMB,38.2483,-109.3883,1767.0,Bsk,10.1,319.46,CCBY4.0,2017,2022
+US-xML,NEON Mountain Lake Biological Station (MLBS),USA,VA,DBF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xML,37.3783,-80.5248,1126.0,Dfb,8.8,1227.82,CCBY4.0,2017,2022
+US-xNG,NEON Northern Great Plains Research Laboratory (NOGP),USA,ND,GRA,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xNG,46.7697,-100.9154,578.0,Dfb,5.9,456.51,CCBY4.0,2017,2022
+US-xNQ,NEON Onaqui-Ault (ONAQ),USA,UT,OSH,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xNQ,40.1776,-112.4524,1685.0,Dfb,9.0,288.31,CCBY4.0,2017,2022
+US-xNW,NEON Niwot Ridge Mountain Research Station (NIWO),USA,CO,ENF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xNW,40.0543,-105.5824,3513.0,Dfc,0.3,1004.54,CCBY4.0,2017,2022
+US-xPU,NEON Pu'u Maka'ala Natural Area Reserve (PUUM),USA,HI,EBF,2019,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xPU,19.5531,-155.3173,1685.0,Cfb,13.0,2685.0,CCBY4.0,2019,2022
+US-xRM,"NEON Rocky Mountain National Park, CASTNET (RMNP)",USA,CO,ENF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xRM,40.2759,-105.5459,2743.0,Dfc,2.9,730.59,CCBY4.0,2017,2022
+US-xRN,NEON Oak Ridge National Lab (ORNL),USA,TN,DBF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xRN,35.9641,-84.2826,334.0,Cfa,14.4,1340.32,CCBY4.0,2017,2022
+US-xSB,NEON Ordway-Swisher Biological Station (OSBS),USA,FL,ENF,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xSB,29.6893,-81.9934,45.0,Cfa,20.9,1302.09,CCBY4.0,2017,2022
+US-xSC,NEON Smithsonian Conservation Biology Institute (SCBI),USA,VA,DBF,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xSC,38.8929,-78.1395,361.0,Cfa,11.6,1125.5,CCBY4.0,2016,2022
+US-xSE,NEON Smithsonian Environmental Research Center (SERC),USA,MD,DBF,2016,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xSE,38.8901,-76.56,15.0,Cfa,13.6,1074.65,CCBY4.0,2017,2022
+US-xSJ,NEON San Joaquin Experimental Range (SJER),USA,CA,SAV,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xSJ,37.1088,-119.7323,368.0,Csa,16.4,539.62,CCBY4.0,2018,2022
+US-xSL,"NEON North Sterling, CO (STER)",USA,CO,CRO,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xSL,40.4619,-103.0293,1364.0,Bsk,9.7,432.67,CCBY4.0,2017,2022
+US-xSP,NEON Soaproot Saddle (SOAP),USA,CA,ENF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xSP,37.0334,-119.2622,1160.0,Csa,13.4,900.35,CCBY4.0,2017,2022
+US-xSR,NEON Santa Rita Experimental Range (SRER),USA,AZ,OSH,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xSR,31.9107,-110.8355,983.0,Bsk,19.3,346.0,CCBY4.0,2017,2022
+US-xST,NEON Steigerwaldt Land Services (STEI),USA,WI,DBF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xST,45.5089,-89.5864,481.0,Dfb,4.8,797.56,CCBY4.0,2017,2022
+US-xTA,NEON Talladega National Forest (TALL),USA,AL,ENF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xTA,32.9505,-87.3933,135.0,Cfa,17.2,1382.68,CCBY4.0,2017,2022
+US-xTE,NEON Lower Teakettle (TEAK),USA,CA,ENF,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xTE,37.0058,-119.006,2147.0,Csa,8.0,1222.5,CCBY4.0,2018,2022
+US-xTL,NEON Toolik (TOOL),USA,AK,WET,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xTL,68.6611,-149.3705,843.0,ET,-4.0,331.0,CCBY4.0,2017,2022
+US-xTR,NEON Treehaven (TREE),USA,WI,DBF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xTR,45.4937,-89.5857,472.0,Dfb,4.8,797.56,CCBY4.0,2017,2022
+US-xUK,NEON The University of Kansas Field Station (UKFS),USA,KS,DBF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xUK,39.0404,-95.1921,335.0,Cfa,12.7,990.63,CCBY4.0,2017,2022
+US-xUN,NEON University of Notre Dame Environmental Research Center (UNDE),USA,MI,MF,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xUN,46.2339,-89.5373,518.0,Dfb,4.3,802.3,CCBY4.0,2017,2022
+US-xWD,NEON Woodworth (WOOD),USA,ND,GRA,2017,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xWD,47.1282,-99.2414,579.0,Dfb,4.9,493.76,CCBY4.0,2017,2022
+US-xWR,NEON Wind River Experimental Forest (WREF),USA,WA,ENF,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xWR,45.8205,-121.9519,407.0,Csb,9.2,2225.01,CCBY4.0,2018,2022
+US-xYE,NEON Yellowstone Northern Range (Frog Rock) (YELL),USA,WY,ENF,2018,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-xYE,44.9535,-110.5391,2116.0,Dfc,3.4,493.44,CCBY4.0,2018,2022
+US-YK1,"Yukon-Kuskokwim Delta, Izaviknek-Kingaglia uplands, Burned 2015",USA,AK,WET,2019,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-YK1,61.2723,-163.2228,15.0,NA_character_,,,CCBY4.0,2019,2022
+US-YK2,"Yukon-Kuskokwim Delta, Izaviknek-Kingaglia uplands, Unburned",USA,AK,WET,2019,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-YK2,61.2548,-163.259,15.0,NA_character_,,,CCBY4.0,2019,2022
+US-Ylw,Yellow Cab urban,USA,TX,URB,2007,2013,https://ameriflux.lbl.gov/sites/siteinfo/US-Ylw,29.7894,-95.3536,14.0,Cfa,20.0,1260.0,LEGACY,-2147483648,-2147483648
+US-YNS,North Star Yedoma,USA,AK,GRA,2021,NA_character_,https://ameriflux.lbl.gov/sites/siteinfo/US-YNS,64.8939,-147.6374,186.9,Dfc,-2.5,275.0,LEGACY,-2147483648,-2147483648

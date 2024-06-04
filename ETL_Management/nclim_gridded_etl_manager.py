@@ -475,7 +475,7 @@ class GRIDETLManager:
     ##input: parameters -- the parameters for the API call (settings, start date, end date, etc.)
     ##output: all_data -- all of the data for the given API call
     def api_download(self, urls, endpoint, headers, parameters):
-        target_folder = './GRID_DATA/'
+        target_folder = '../GRID_DATA/'
         for url in urls:
             # Extract filename from URL
             filename = url.split('/')[-1]

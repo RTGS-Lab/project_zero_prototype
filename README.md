@@ -37,12 +37,23 @@ In short, you only need to input database credentials into `app.py` that is in t
     * Password
 * **EDIT** your `app.py` file to include your database credentials!
 * Load weather stations for NOAA web interface
-    * TODO
+    * Run the cells of the `NOAA_API_LOAD_DB.ipynb` file in the `/NOAA_API_PREP` folder. More information is contained within the file, but a few changes are necessary as you run the file:
+        * Add in database credentials at the top of the file.
+        * Add in NOAA API key at the top of the file.
+        * Edit the FIPS code when downloading weather station data (second to last cell) to your area(s) of choice, or make empty to download all station locations.
 * Load flux stations for Ameriflux web interface
-    * TODO
+    * Run the cells of the `AMERIFLUX_LOAD_DB.ipynb` file in the `/AMERIFLUX_PREP` folder. More information is contained within the file, but a few changes are necessary as you run the file:
+        * Add in database credentials at the top of the file
+        * Adjust the `os.environ['R_HOME']` line to ensure R code works in your environment
+
+### Running R Code
+* Getting R code to run in Python notebooks can be a challenge. An important line of code that may be needed to edit is `os.environ['R_HOME']` in the Ameriflux files (`AMERIFLUX_LOAD_DB.ipynb` near the first chunk of code and `ameriflux_etl_manager.py` near the second set of import statements). `os.environ['R_HOME']` should be set to match where the `bin, doc, etc, src, ...` folders are for your computer's installation version of R, or follow the `rpy2` docs to ensure the code runs.
 
 ### Data download folders
-* TODO
+* It may be necessary to create folders for the data you donwload, as they are not stored in the github repo. Here is where data is stored for each API:
+    * NOAA Point data: stored in database, follow instructions above to prep database
+    * NOAA Gridded data: stored in `/GRID_DATA` 
+    * Ameriflux data: By default stored in `/AMF_DATA` based on `out_dir` argument of the AMF API
 
 ### Running the application
 * To run the Project Zero tool, navigate to the `/ETL_Management` in terminal, or some method of running pyhton code.
@@ -72,6 +83,9 @@ A user can make request calls to the running flask applicaiton to generate and d
 ### Web interface
 A user can make similar data calls using the web user interface. When a user goes to the Flask Applicaiton page in a web browser (`localhost:5000/` or the Application's IP address), it will default to the web interface for the NOAA GHCNd dataset. A user can go to the `/grid` endpoint (`localhost:5000/grid`) to interact with the NOAA NClimGrid-Daily dataset. A user can go to the `/AMF` endpoint to interact with the Ameriflux BASE dataset.
 
-
 ## Current Status
 The initial implementation of this project is complete, though future updates will refine project scope, clarity, and ease of use.
+
+# Aknowledgements
+
+Funding provided by LCCMR
