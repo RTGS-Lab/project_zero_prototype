@@ -40,82 +40,7 @@
 
 		<h4>Additional Parameters</h4>
 		
-		<label for="aggregation">Aggregation Time Type:</label>
-		<select name="aggregation">
-			<option value="daily">Daily</option>
-			<option value="weekly">Weekly</option>
-			<option value="monthly">Monthly</option>
-			<option value="yearly">Yearly</option>
-		</select><br>
-		
-		<label for="prcp">Precipitation Aggregation:</label>
-		<select name="prcp">
-			<option value="mean">Mean</option>
-			<option value="sum">Sum</option>
-			<option value="min">Min</option>
-			<option value="max">Max</option>
-		</select><br>
-		
-		<label for="tavg">Average Temperature Aggregation:</label>
-		<select name="tavg">
-			<option value="mean">Mean</option>
-			<option value="sum">Sum</option>
-			<option value="min">Min</option>
-			<option value="max">Max</option>
-		</select><br>
-		
-		<label for="tmin">Minimum Temperature Aggregation:</label>
-		<select name="tmin">
-			<option value="mean">Mean</option>
-			<option value="sum">Sum</option>
-			<option value="min">Min</option>
-			<option value="max">Max</option>
-		</select><br>
-		
-		<label for="tmax">Maximum Temperature Aggregation:</label>
-		<select name="tmax">
-			<option value="mean">Mean</option>
-			<option value="sum">Sum</option>
-			<option value="min">Min</option>
-			<option value="max">Max</option>
-		</select><br>
-		
-		<label for="snow">Snowfall Aggregation:</label>
-		<select name="snow">
-			<option value="mean">Mean</option>
-			<option value="sum">Sum</option>
-			<option value="min">Min</option>
-			<option value="max">Max</option>
-		</select><br>
-		
-		<label for="snwd">Snow Depth Aggregation:</label>
-		<select name="snwd">
-			<option value="mean">Mean</option>
-			<option value="sum">Sum</option>
-			<option value="min">Min</option>
-			<option value="max">Max</option>
-		</select><br>
-		
-		<label for="tobs">Temp Obs. Aggregation:</label>
-		<select name="tobs">
-			<option value="mean">Mean</option>
-			<option value="sum">Sum</option>
-			<option value="min">Min</option>
-			<option value="max">Max</option>
-		</select><br>
-		
-		<label for="format">Dataframe Format:</label>
-		<select name="format">
-			<option value="tall">Tall/Long</option>
-			<option value="wide">Wide</option>
-		</select><br>
-		
-		<label for="direct-download">Direct Download:</label>
-		<select name="direct_download">
-			<option value="FALSE">Metadata</option>
-			<option value="CSV">CSV</option>
-			<option value="JSON">JSON</option>
-		</select><br>
+		Aggregation is defaulted to mean (average) for the web interface, use the API to perform other aggregation methods.
 
 		<h4>Credentials</h4>
 		<!-- Checkboxes for call functions -->
@@ -140,9 +65,6 @@
 
 		<label for="dbport">DB Port:</label>
 		<input type="text" id="dbport" name="dbport" value="5432"><br>
-		
-		<label for="apikey">NOAA API Key:</label>
-		<input type="password" id="apikey" name="apikey" value="IzgpadcMrEYtDZiJDnBOfeARfEWoPEdO"><br>
 
 		<input type="hidden" id="station-ids" name="station_ids" value="">
 
@@ -317,13 +239,6 @@
 				'NOAA_API_KEY': this.apikey.value,
 				'Additional_Arguments': {
 					'aggregation' : {'time' : this.aggregation.value,
-									 'PRCP' : this.prcp.value,
-									 'TAVG' : this.tavg.value,
-									 'TMIN' : this.tmin.value,
-									 'TMAX' : this.tmax.value,
-									 'SNOW' : this.snow.value,
-									 'SNWD' : this.snwd.value,
-									 'TOBS' : this.tobs.value
 					},
 					'format' : this.format.value
 				} 
