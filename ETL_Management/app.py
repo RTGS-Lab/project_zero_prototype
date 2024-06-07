@@ -29,7 +29,7 @@ def gridindex():
     return render_template_string(open('templates/gridindex.html').read())
 
 @app.route('/amf')
-def gridindex():
+def amf():
     return render_template_string(open('templates/amfindex.html').read())
 
 @app.route('/stations', methods=['GET'])
@@ -80,8 +80,8 @@ def amf_stations():
         maxlat = max(lat1, lat2)
         minlon = min(lon1, lon2)
         maxlon = max(lon1, lon2)
-        conditions.append(f"latitude BETWEEN {minlat} AND {maxlat}")
-        conditions.append(f"longitude BETWEEN {maxlon} AND {minlon}")
+        conditions.append(f"CAST(location_lat AS NUMERIC) BETWEEN {minlat} AND {maxlat}")
+        conditions.append(f"CAST(location_long AS NUMERIC) BETWEEN {maxlon} AND {minlon}")
     
     if conditions:
         query += ' WHERE ' + ' AND '.join(conditions)

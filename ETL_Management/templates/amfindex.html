@@ -9,77 +9,119 @@
     <style>
         #mapid { height: 60vh; }
         #stations-list { margin-top: 20px; }
-		#highlight-stations { display: none; }
+        #highlight-stations { display: none; }
     </style>
 </head>
 <body>
     <div id="mapid"></div>
-	
-	<div id="selection-controls">
-    <input type="radio" id="select-bbox" name="selection-mode" value="Bounding Box" checked>
-    <label for="select-bbox">Bounding Box</label>
-    <input type="radio" id="select-list" name="selection-mode" value="List">
-    <label for="select-list">List</label>
-    <input type="text" id="station-names" placeholder="Enter station IDs, separated by commas" style="display:none;">
-	</div>
+    
+    <div id="selection-controls">
+        <input type="radio" id="select-bbox" name="selection-mode" value="Bounding Box" checked>
+        <label for="select-bbox">Bounding Box</label>
+        <input type="radio" id="select-list" name="selection-mode" value="List">
+        <label for="select-list">List</label>
+        <input type="text" id="station-names" placeholder="Enter station IDs, separated by commas" style="display:none;">
+    </div>
 
-	<button id="highlight-stations">Highlight Stations</button>
-	
-	<form id="api-call-form" action="/call-api" method="post">
-		<h3>Ameriflux API Call</h3>
-		
+    <button id="highlight-stations">Highlight Stations</button>
+    
+    <form id="api-call-form" action="/call-api" method="post">
+        <h3>NOAA Database API Call</h3>
+        
 		<h4>NOAA API Parameters</h4>
 		<label for="startdate">Start Date:</label>
-		<input type="date" id="startdate" name="startdate"><br>
+		<input type="datetime-local" id="startdate" name="startdate"><br>
 
 		<label for="enddate">End Date:</label>
-		<input type="date" id="enddate" name="enddate"><br>
+		<input type="datetime-local" id="enddate" name="enddate"><br>
 
 		<label for="datatypeid">Data Type IDs:</label>
 		<input type="text" id="datatypeid" name="datatypeid" placeholder="Enter datatypes, separated by commas"><br>
 
-		<h4>Additional Parameters</h4>
-		
-		Aggregation is defaulted to mean (average) for the web interface, use the API to perform other aggregation methods.
+		<label for="user_id">User ID:</label>
+		<input type="text" id="user_id" name="user_id"><br>
 
-		<h4>Credentials</h4>
-		<!-- Checkboxes for call functions -->
-		<label><input type="checkbox" name="call_db" checked> Call DB</label><br>
-		<label><input type="checkbox" name="call_api" checked> Call API</label><br>
-		<label><input type="checkbox" name="call_completeness" checked> Completeness Check</label><br>
-		<label><input type="checkbox" name="call_fill_incomplete" checked> Fill Incomplete</label><br>
+		<label for="user_email">User Email:</label>
+		<input type="email" id="user_email" name="user_email"><br>
+
+		<label for="data_policy">Data Policy:</label>
+		<select id="data_policy" name="data_policy">
+			<option value="CCBY4.0">CCBY4.0</option>
+			<option value="Legacy">Legacy</option>
+		</select><br>
+
+		<label for="agree_policy">Agree to Policy:</label>
+		<input type="checkbox" id="agree_policy" name="agree_policy" value="True"><br>
+
+		<label for="intended_use">Intended Use:</label>
+		<select id="intended_use" name="intended_use">
+			<option value="synthesis">Synthesis</option>
+			<option value="model">Model</option>
+			<option value="remote_sensing">Remote Sensing</option>
+			<option value="other_research">Other Research</option>
+			<option value="education">Education</option>
+			<option value="other">Other</option>
+		</select><br>
+
+		<label for="intended_use_text">Intended Use Description:</label>
+		<input type="text" id="intended_use_text" name="intended_use_text"><br>
+
+		<label for="out_dir">Output Directory:</label>
+		<input type="text" id="out_dir" name="out_dir" value="../AMF_DATA"><br>
+
+        <h4>Additional Parameters</h4>
+        
+        <label for="aggregation-time">Aggregation Time Type:</label>
+        <select name="aggregation-time" id="aggregation-time">
+            <option value="30_minute">30 Minutes</option>
+			<option value="hourly">Hourly</option>
+			<option value="daily">Daily</option>
+            <option value="weekly">Weekly</option>
+            <option value="monthly">Monthly</option>
+            <option value="yearly">Yearly</option>
+        </select><br>
+
+        <div id="data-aggregation-container">
+            <div class="data-aggregation">
+                <label for="data-type">Data Type:</label>
+                <input type="text" name="data-type" placeholder="Enter data type"><br>
+                <label for="aggregation-style">Aggregation Style:</label>
+                <select name="aggregation-style">
+                    <option value="mean">Mean</option>
+                    <option value="sum">Sum</option>
+                    <option value="min">Min</option>
+                    <option value="max">Max</option>
+                </select><br>
+            </div>
+        </div>
+        <button type="button" id="add-data-aggregation">Add Another Data Type</button><br>
+
+        <label for="direct-download">Direct Download:</label>
+        <select name="direct_download">
+            <option value="FALSE">Metadata</option>
+            <option value="CSV">CSV</option>
+            <option value="JSON">JSON</option>
+        </select><br>
+
+        <h4>Credentials</h4>
+        <!-- Checkboxes for call functions -->
+        <label><input type="checkbox" name="call_api" checked> Call API</label><br>
 		<label><input type="checkbox" name="call_aggregation" checked> Aggregation</label><br>
 
-		<!-- Database Credentials -->
-		<label for="dbname">DB Name:</label>
-		<input type="text" id="dbname" name="dbname" value="postgres"><br>
+        <!-- Database Credentials -->
 
-		<label for="dbuser">DB User:</label>
-		<input type="text" id="dbuser" name="dbuser" value="postgres"><br>
+        <input type="hidden" id="station-ids" name="station_ids" value="">
 
-		<label for="dbpassword">DB Password:</label>
-		<input type="password" id="dbpassword" name="dbpassword" value="Passwordd"><br>
-
-		<label for="dbhost">DB Host:</label>
-		<input type="text" id="dbhost" name="dbhost" value="localhost"><br>
-
-		<label for="dbport">DB Port:</label>
-		<input type="text" id="dbport" name="dbport" value="5432"><br>
-
-		<input type="hidden" id="station-ids" name="station_ids" value="">
-
-		<button type="submit">Submit</button>
-	</form>
-
-
-		
+        <button type="submit">Submit</button>
+    </form>
+    
     <div id="stations-list"></div>
-	<script>
-		var map = L.map('mapid').setView([45.0, -93.5], 9);
-		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-			attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-			maxZoom: 18,
-		}).addTo(map);
+    <script>
+        var map = L.map('mapid').setView([45.0, -93.5], 9);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 18,
+        }).addTo(map);
 
         // Function to fetch stations and optionally filter by bounding box
         function fetchStations(lat1, lon1, lat2, lon2, updateIds = false) {
@@ -90,26 +132,26 @@
             fetch(url)
                 .then(response => response.json())
                 .then(data => {
-					console.log("Stations API response:", data);
-					if (updateIds) {
-						var ids = data.map(station => station.site_id);
-						document.getElementById('station-ids').value = ids.join(',');
-					}
+                    console.log("Stations API response:", data);
+                    if (updateIds) {
+                        var ids = data.map(station => station.id);
+                        document.getElementById('station-ids').value = ids.join(',');
+                    }
                     if (lat1 && lon1 && lat2 && lon2) {
-                        document.getElementById('stations-list').innerHTML = '<h4>Stations in Bounding Box:</h4>' + data.map(station => station.site_name + ' (' + station.site_id + ')').join('<br>');
+                        document.getElementById('stations-list').innerHTML = '<h4>Stations in Bounding Box:</h4>' + data.map(station => station.name + ' (' + station.id + ')').join('<br>');
 
                     } else {
                         data.forEach(station => {
-                    // Using L.circleMarker here
-                    L.circleMarker([station.latitude, station.longitude], {
-                        radius: 5, // Size of the circle marker
-                        fillColor: "Pink",
-                        color: "#fb00ff",
-                        weight: 1,
-                        opacity: 1,
-                        fillOpacity: 0.8
-						}).addTo(map)
-                      .bindPopup(station.site_name + '<br>' + station.site_id);
+                            // Using L.circleMarker here
+                            L.circleMarker([station.latitude, station.longitude], {
+                                radius: 5, // Size of the circle marker
+                                fillColor: "Pink",
+                                color: "#fb00ff",
+                                weight: 1,
+                                opacity: 1,
+                                fillOpacity: 0.8
+                            }).addTo(map)
+                              .bindPopup(station.name + '<br>' + station.id);
                         });
                     }
                 });
@@ -118,129 +160,175 @@
         // Initial fetch to load all stations
         fetchStations();
 
-		var drawnItems = new L.FeatureGroup();
-		var highlightedStations = new L.LayerGroup().addTo(map); // Add this line to declare the layer group
+        var drawnItems = new L.FeatureGroup();
+        var highlightedStations = new L.LayerGroup().addTo(map); // Add this line to declare the layer group
 
-		map.addLayer(drawnItems);
-		var drawControl = new L.Control.Draw({
-			draw: {
-				polygon: false,
-				polyline: false,
-				circle: false,
-				circlemarker: false,
-				marker: false,
-				rectangle: true
-			},
-			edit: {
-				featureGroup: drawnItems,
-				remove: true
-			}
-		});
-		map.addControl(drawControl);
+        map.addLayer(drawnItems);
+        var drawControl = new L.Control.Draw({
+            draw: {
+                polygon: false,
+                polyline: false,
+                circle: false,
+                circlemarker: false,
+                marker: false,
+                rectangle: true
+            },
+            edit: {
+                featureGroup: drawnItems,
+                remove: true
+            }
+        });
+        map.addControl(drawControl);
 
-		map.on(L.Draw.Event.CREATED, function (e) {
-			var type = e.layerType,
-				layer = e.layer;
+        map.on(L.Draw.Event.CREATED, function (e) {
+            var type = e.layerType,
+                layer = e.layer;
 
-			if (type === 'rectangle') {
-				var bounds = layer.getBounds();
-				var southWest = bounds.getSouthWest(),
-					northEast = bounds.getNorthEast();
+            if (type === 'rectangle') {
+                var bounds = layer.getBounds();
+                var southWest = bounds.getSouthWest(),
+                    northEast = bounds.getNorthEast();
 
-				fetchStations(southWest.lat, southWest.lng, northEast.lat, northEast.lng, true);
-				drawnItems.clearLayers(); // Optionally clear previous layers
-				drawnItems.addLayer(layer); // Add current bounding box
-			}
-		});
-		
-		document.querySelectorAll('input[name="selection-mode"]').forEach((input) => {
-			input.addEventListener('change', function() {
-				const stationNamesInput = document.getElementById('station-names');
-				const stationsListDiv = document.getElementById('stations-list');
-				const highlightButton = document.getElementById('highlight-stations'); // Get the button element
+                fetchStations(southWest.lat, southWest.lng, northEast.lat, northEast.lng, true);
+                drawnItems.clearLayers(); // Optionally clear previous layers
+                drawnItems.addLayer(layer); // Add current bounding box
+            }
+        });
+        
+        document.querySelectorAll('input[name="selection-mode"]').forEach((input) => {
+            input.addEventListener('change', function() {
+                const stationNamesInput = document.getElementById('station-names');
+                const stationsListDiv = document.getElementById('stations-list');
+                const highlightButton = document.getElementById('highlight-stations'); // Get the button element
 
-				if (this.id === 'select-list') {
-					stationNamesInput.style.display = 'block';
-					highlightButton.style.display = 'block'; // Show the button
-					drawnItems.clearLayers();
-					stationsListDiv.innerHTML = '';
-					document.getElementById('station-ids').value = ''; // Clear the hidden field when switching to list mode
-				} else {
-					stationNamesInput.style.display = 'none';
-					stationNamesInput.value = '';
-					highlightButton.style.display = 'none'; // Hide the button
-					highlightedStations.clearLayers();
-					fetchStations(undefined, undefined, undefined, undefined, true); // Fetch all stations and update the IDs
-				}
-			});
-		});
+                if (this.id === 'select-list') {
+                    stationNamesInput.style.display = 'block';
+                    highlightButton.style.display = 'block'; // Show the button
+                    drawnItems.clearLayers();
+                    stationsListDiv.innerHTML = '';
+                    document.getElementById('station-ids').value = ''; // Clear the hidden field when switching to list mode
+                } else {
+                    stationNamesInput.style.display = 'none';
+                    stationNamesInput.value = '';
+                    highlightButton.style.display = 'none'; // Hide the button
+                    highlightedStations.clearLayers();
+                    fetchStations(undefined, undefined, undefined, undefined, true); // Fetch all stations and update the IDs
+                }
+            });
+        });
 
-		// Modify your highlightStationsById function
-		function highlightStationsById(ids) {
-			fetch('/stations')
-				.then(response => response.json())
-				.then(allStations => {
-					const stationIds = ids.split(',').map(id => id.trim());
-					const stationsToHighlight = allStations.filter(station => stationIds.includes(station.id.toString()));
+        // Modify your highlightStationsById function
+        function highlightStationsById(ids) {
+            fetch('/stations')
+                .then(response => response.json())
+                .then(allStations => {
+                    const stationIds = ids.split(',').map(id => id.trim());
+                    const stationsToHighlight = allStations.filter(station => stationIds.includes(station.id.toString()));
 
-					highlightedStations.clearLayers(); // Clear previous highlights
-					stationsToHighlight.forEach(station => {
-						var marker = L.circleMarker([station.latitude, station.longitude], {
-							radius: 5,
-							fillColor: "green",
-							color: "#000",
-							weight: 1,
-							opacity: 1,
-							fillOpacity: 0.8
-						}).bindPopup(station.name);
-						highlightedStations.addLayer(marker); // Add each marker to the layer group
-					});
-				});
-		}
-		
-		document.getElementById('highlight-stations').addEventListener('click', function() {
-			const ids = document.getElementById('station-names').value;
-			if (ids) {
-				document.getElementById('station-ids').value = ids; // Update hidden field when manually entering IDs
-				highlightStationsById(ids);
-			}
-		});
-		
+                    highlightedStations.clearLayers(); // Clear previous highlights
+                    stationsToHighlight.forEach(station => {
+                        var marker = L.circleMarker([station.latitude, station.longitude], {
+                            radius: 5,
+                            fillColor: "green",
+                            color: "#000",
+                            weight: 1,
+                            opacity: 1,
+                            fillOpacity: 0.8
+                        }).bindPopup(station.name);
+                        highlightedStations.addLayer(marker); // Add each marker to the layer group
+                    });
+                });
+        }
+        
+        document.getElementById('highlight-stations').addEventListener('click', function() {
+            const ids = document.getElementById('station-names').value;
+            if (ids) {
+                document.getElementById('station-ids').value = ids; // Update hidden field when manually entering IDs
+                highlightStationsById(ids);
+            }
+        });
+
+        document.getElementById('add-data-aggregation').addEventListener('click', function() {
+            const container = document.getElementById('data-aggregation-container');
+            const newAggregation = document.createElement('div');
+            newAggregation.classList.add('data-aggregation');
+            newAggregation.innerHTML = `
+                <label for="data-type">Data Type:</label>
+                <input type="text" name="data-type" placeholder="Enter data type"><br>
+                <label for="aggregation-style">Aggregation Style:</label>
+                <select name="aggregation-style">
+                    <option value="mean">Mean</option>
+                    <option value="sum">Sum</option>
+                    <option value="min">Min</option>
+                    <option value="max">Max</option>
+                </select><br>
+            `;
+            container.appendChild(newAggregation);
+        });
+        
 		document.getElementById('api-call-form').addEventListener('submit', function(event) {
 			event.preventDefault();
+			
 			// Ensure station IDs are provided
 			var stationIDs = document.getElementById('station-ids').value;
 			if (!stationIDs) {
 				alert('No stations selected. Please select stations before submitting.');
 				return;
 			}
+
+			// Convert station IDs to an array format
+			var siteIDs = stationIDs.split(',').map(id => id.trim());
+
+			// Function to format date and time
+			function formatDateTime(dateTime) {
+				const date = new Date(dateTime);
+				const year = date.getFullYear();
+				const month = String(date.getMonth() + 1).padStart(2, '0');
+				const day = String(date.getDate()).padStart(2, '0');
+				const hours = String(date.getHours()).padStart(2, '0');
+				const minutes = String(date.getMinutes()).padStart(2, '0');
+				const seconds = String(date.getSeconds()).padStart(2, '0');
+				return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+			}
+
+			// Get formatted start date and end date
+			var formattedStartDate = formatDateTime(document.getElementById('startdate').value);
+			var formattedEndDate = formatDateTime(document.getElementById('enddate').value);
+
+			// Get all data types and their aggregation styles
+			const dataAggregationDivs = document.querySelectorAll('.data-aggregation');
+			const aggregationArguments = {
+				time: document.getElementById('aggregation-time').value,
+			};
+
+			dataAggregationDivs.forEach(div => {
+				const dataType = div.querySelector('input[name="data-type"]').value;
+				const aggregationStyle = div.querySelector('select[name="aggregation-style"]').value;
+				aggregationArguments[dataType] = aggregationStyle;
+			});
+
 			// Prepare the data object
 			var data = {
 				'Endpoint': 'AMF_DATA',
 				'Call_Direct_Download': this.direct_download.value,
 				'API_Arguments': {
-					'startdate': this.startdate.value,
-					'enddate': this.enddate.value,
+					'startdate': formattedStartDate,
+					'enddate': formattedEndDate,
 					'datatypeid': this.datatypeid.value,
-					'stationid': stationIDs // Ensure this is included
+					'user_id': this.user_id.value,
+					'user_email': this.user_email.value,
+					'data_policy': this.data_policy.value,
+					'agree_policy': this.agree_policy.checked ? true : false,
+					'intended_use': this.intended_use.value,
+					'intended_use_text': this.intended_use_text.value,
+					'out_dir': this.out_dir.value,
+					'verbose': true,
+					'site_id': siteIDs // Ensure this is included
 				},
-				'Call_DB': this.call_db.checked,
 				'Call_API': this.call_api.checked,
-				'Call_Completeness': this.call_completeness.checked,
-				'Call_Fill_Incomplete': this.call_fill_incomplete.checked,
 				'Call_Aggregation': this.call_aggregation.checked,
-				'DB_Credentials': {
-					'dbname': this.dbname.value,
-					'user': this.dbuser.value,
-					'password': this.dbpassword.value,
-					'host': this.dbhost.value,
-					'port': this.dbport.value
-				},
-				'NOAA_API_KEY': this.apikey.value,
 				'Additional_Arguments': {
-					'aggregation' : {'time' : this.aggregation.value,
-					},
-					'format' : this.format.value
+					'aggregation': aggregationArguments
 				} 
 			};
 
@@ -274,4 +362,3 @@
     </script>
 </body>
 </html>
-

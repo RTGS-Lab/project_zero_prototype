@@ -88,4 +88,4 @@ The initial implementation of this project is complete, though future updates wi
 
 # Aknowledgements
 
-Funding provided by LCCMR
+Funding for this project was provided by the Minnesota Environment and Natural Resources Trust Fund as recommended by the Legislative-Citizen Commission on Minnesota Resources (LCCMR) project ML 2021, Chp6, Art6, Sec 2, 04e-E812SIM 2021-266.

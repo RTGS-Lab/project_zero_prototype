@@ -1,4 +1,4 @@
-Flask
+Flask = 3.0.2
 psycopg2
 flask_restful
 requests

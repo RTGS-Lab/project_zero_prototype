@@ -302,10 +302,15 @@ class GRIDETLManager:
         print(df.head())
         #initialize an empty list to store the aggregated DataFrames
         aggregated_dfs = []
-        
+
+        if (additional_arguments is not None) and ('aggregation' in additional_arguments):
+            print('true')
+        else:
+            print('false')
         #check to see if there's a custom aggregation method passed in additional_arguments
-        if additional_arguments is not None and 'aggregation' in additional_arguments:
+        if (additional_arguments is not None) and ('aggregation' in additional_arguments):
             for key, method in additional_arguments['aggregation'].items():
+                print(key)
                 if key in agg_methods:
                     agg_methods[key] = method  #ensure only valid columns are included
         #convert 'time' column to datetime if not already
@@ -326,6 +331,8 @@ class GRIDETLManager:
         
         #convert date back to a readable text for the user
         aggregated['time'] = aggregated['time'].dt.strftime('%Y-%m-%d')
+
+        result_df = aggregated
         
         #check for requested dataframe format for the resulting data
         if additional_arguments is not None:
@@ -335,9 +342,6 @@ class GRIDETLManager:
             elif additional_arguments.get('format') == 'wide':
                 #if wide format is requested or no format is specified, use the wide format as default
                 result_df = aggregated
-        else:
-            #default to wide format if no specific format is requested
-            result_df = aggregated
         print(result_df)
         #return the data
         return result_df
