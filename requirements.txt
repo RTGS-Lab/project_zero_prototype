@@ -1,5 +1,5 @@
-Flask = 3.0.2
-psycopg2
+Flask==3.0.2
+psycopg2-binary
 flask_restful
 requests
 datetime

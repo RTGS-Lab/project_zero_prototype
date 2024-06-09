@@ -406,7 +406,8 @@ class NOAAETLManager:
         parameters = {'datasetid' : translation['api']['datasetid'],
                       'limit': 500,
                       'offset': 0,
-                      'locationid' : 'FIPS:27'}
+                      'locationid' : 'FIPS:27',
+                     'units' : 'metric'}
         #update parameters with those provided in API_Arguments (ex. adding in startdate and enddate)
         parameters.update(api_parameters)
         #pull url and endpoint from the translation dictionary
@@ -562,14 +563,11 @@ class NOAAETLManager:
         full_call = self.generate_api_call(translation, api_parameters, noaa_api_key)
         # Download all the data using api_download function, inputting the generated API call
         api_vals = self.api_download(full_call['url'], full_call['endpoint'], full_call['headers'], full_call['parameters'])
-    
         # Generate UIDs for API data for easy comparison
         api_uids = {str(row['date']) + '_' + str(row['station']) + '_' + str(row['datatype']) for row in api_vals}
-    
         try:
             # Start cursor with database connection
             cur = conn.cursor()
-    
             if diff < 0:
                 # Add data to database row by row
                 for row in api_vals:
@@ -579,7 +577,7 @@ class NOAAETLManager:
                         SELECT latitude, longitude, name, elevation FROM noaa_station_list WHERE id = %s;
                     """, (row['station'],))
                     station_details = cur.fetchone()
-    
+                    
                     if station_details:
                         latitude, longitude, name, elevation = station_details
                         # Add the row into the database using the below SQL query.
@@ -588,7 +586,7 @@ class NOAAETLManager:
                             VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                             ON CONFLICT (uid) DO NOTHING;
                         """, (row['date'], row['datatype'], row['station'], row['attributes'], row['value'], uid, latitude, longitude, name, elevation))
-    
+            
             elif diff > 0:
                 # Remove extra rows from the database that are not in the API data
                 cur.execute("SELECT uid FROM noaa_api;")
@@ -596,7 +594,6 @@ class NOAAETLManager:
                 extra_uids = db_uids - api_uids
                 for uid in extra_uids:
                     cur.execute("DELETE FROM noaa_api WHERE uid = %s;", (uid,))
-    
             # Commit changes to the database
             conn.commit()
             print('Database update complete')

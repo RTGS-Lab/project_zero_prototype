@@ -73,6 +73,7 @@ class GRIDETLManager:
         ##Returns a dictionary with extra parameters that are key for this specific data download endpoint
         ##Ex. URL of API, and translation from API to database (startdate : X to SQL date >= X)
         arg_trans = self.translate_endpoint(self.args['Endpoint'])
+        self.args['API_Arguments']['datatypeid'] = self.args['API_Arguments']['datatypeid'].lower()
 
         #If Call_Direct_Download is CSV or JSON --> start our data download process
         if (self.args['Call_Direct_Download'] == 'CSV') or (self.args['Call_Direct_Download'] == 'JSON'):
@@ -516,8 +517,7 @@ class GRIDETLManager:
                     attempts += 1
                     print(f"Attempt {attempts} failed: {e}")
                     time.sleep(0.5)  #wait for 1 second before retrying
-        
-            print(f"Failed to download the file after {max_attempts} attempts.")
+
         return target_folder
         
 

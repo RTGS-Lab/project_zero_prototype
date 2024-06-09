@@ -1,7 +1,10 @@
 from flask_restful import Resource, reqparse
 from noaa_etl_manager import NOAAETLManager
 from nclim_gridded_etl_manager import GRIDETLManager
-from ameriflux_etl_manager import AMFETLManager
+try:
+    from ameriflux_etl_manager import AMFETLManager
+except exception as e:
+    print("ERROR: R CODE INTERFACE IS NON FUNCTIONAL, Likely R is not installed and correct path to R directory is not defined. CANNOT RUN THE AMERIFLUX ETL MANAGEMENT")
 
 parser = reqparse.RequestParser()
 parser.add_argument('Endpoint', required=True, help="Endpoint cannot be blank!")

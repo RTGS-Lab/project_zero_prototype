@@ -26,7 +26,7 @@
     <button id="highlight-stations">Highlight Stations</button>
     
     <form id="api-call-form" action="/call-api" method="post">
-        <h3>NOAA Database API Call</h3>
+        <h3>NOAA GHCNd API Call</h3>
         
         <h4>NOAA API Parameters</h4>
         <label for="startdate">Start Date:</label>
@@ -65,8 +65,8 @@
 
         <label for="format">Dataframe Format:</label>
         <select name="format">
+			<option value="wide">Wide</option>
             <option value="tall">Tall/Long</option>
-            <option value="wide">Wide</option>
         </select><br>
 
         <label for="direct-download">Direct Download:</label>
