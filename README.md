@@ -9,6 +9,8 @@ Project Zero is an integrated platform designed to aggregate and facilitate easy
 
 - **SETUP_DB**: This folder contains two .ipynb files designed to prep the user database for applicaiton interaction in the NOAA GHCND dataset and Ameriflux stations.
 
+- **System_Architecture**: This folder contains images with system architecture diagrams, notably ETL diagrams for data aquisition for each data source.
+
 - **Deprecated_Files**: Contains old files that were used for initial testing and development. These files are retained for historical reference and may not be relevant to the current version of the project.
 
 ## Getting Started

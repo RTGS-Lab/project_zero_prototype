@@ -1,0 +1,5 @@
+The data flows here are represented using a series of different colors and shapes. 
+Specifically, rectangles represent functions/processes, ovals are data, and diamonds are data flow questions.
+Additionally, purple rectangles represent process calls within the ETL pipeline and green rectangles are individual functions/processing steps. 
+Green ovals represent input/source data sets. Blue ovals represent output data from a given process. 
+Diamonds are True/False checks for different sections of the data flow, specifically to check for data downloads, and completeness of data.
